@@ -1,0 +1,38 @@
+
+
+.text{
+  font-size: 15px;
+}
+
+.text-box{
+  font-size: 12px;
+}
+
+.box{
+  padding: 40px;
+  margin: auto;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn-select{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  background: rgb(246, 247, 246);
+  padding: 15px 0px 15px 0px;
+  border-radius: 4px;
+}
+
+.btn-select i{
+  margin-right: 80px;
+  padding-left: 15px;
+}
+
+.btn-get{
+  margin-top: 20px;
+  background-color: #f45;
+  padding: 15px 0px;
+  border-radius: 6px;
+  text-align: center;
+}
