@@ -9,6 +9,7 @@ import { AccountComponent } from './Login/account/account.component';
 import { PhoneComponent } from './Login/phone/phone.component';
 import { EmployeeComponent } from './Login/employee/employee.component';
 import { NumberComponent } from './Login/number/number.component';
+import { OtpComponent } from './Login/otp/otp.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NumberComponent } from './Login/number/number.component';
     AccountComponent,
     PhoneComponent,
     EmployeeComponent,
-    NumberComponent
+    NumberComponent,
+    OtpComponent
   ],
   imports: [
     BrowserModule,
