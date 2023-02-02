@@ -10,6 +10,8 @@ import { PhoneComponent } from './Login/phone/phone.component';
 import { EmployeeComponent } from './Login/employee/employee.component';
 import { NumberComponent } from './Login/number/number.component';
 import { OtpComponent } from './Login/otp/otp.component';
+import { FreshComponent } from './fresh/fresh.component';
+import { BasketComponent } from './basket/basket.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { OtpComponent } from './Login/otp/otp.component';
     PhoneComponent,
     EmployeeComponent,
     NumberComponent,
-    OtpComponent
+    OtpComponent,
+    FreshComponent,
+    BasketComponent
   ],
   imports: [
     BrowserModule,
