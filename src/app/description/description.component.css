@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.desc{
+    position: relative;
+    background: #F7F7F7;
+    padding: 40px;
+    align-items: center;
+    justify-content:center;
+}
+
+.desc-svg{
+    position: absolute;
+    width: 25px;
+    margin-top: 40px;
+}
+
+.desc-img{
+    width: 300px;
+}
+
+.desc-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.desc-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    color: #231F40;
+}
+
+.desc-btn{
+    background: #22AF48;
+    color: #F7F7F7;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    padding: 5px 11px;
+    margin-bottom: 20px;
+}
+
+/*----------------------------------------------*/
+
+.desc-box{
+    display: flex;
+    background: #F1F1F1;
+    padding: 15px;
+    justify-content: space-around;
+}
+
+.desc-cont{
+    display: flex;
+}
+
+.desc-cont img{
+    width: 15px;
+}
+.desc-cont p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 2px 0 0 10px;
+
+}
+
+/*---------------------------------------------------------------------------*/
+
+.desc-con{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #231F40;
+}
+
+.desc-cons{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #707070;
+}
+
+.desc-button{
+    padding: 12px 36px;
+    border: 1px solid #707070;
+    border-radius: 6px;
+    color: #E31D1A;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    background: #fff;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.desc-button:hover{
+    padding: 12px 36px;
+    border: 1px solid #707070;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #AFAFAF;
+    background: #fff;
+}
+
+/*---------------------------------------------------------------------------*/
+
+.desc-size{
+    background: #fff;
+}
+
+.desc-price{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.desc-price p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #E31D1A;
+    margin-top: 10px;
+    margin-left: 50px;
+    
+}
+
+.desc-price span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    margin-right: 60px;
+}
+
+.desc-cart-btn{
+    padding: 8px 50px;
+    border: 1px solid #E31D1A;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    background: #E31D1A;
+    margin-bottom: 5px;
+    
+}
