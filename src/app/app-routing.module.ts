@@ -8,11 +8,13 @@ import { AccountComponent } from './Login/account/account.component';
 import { EmployeeComponent } from './Login/employee/employee.component';
 import { OtpComponent } from './Login/otp/otp.component';
 import { PhoneComponent } from './Login/phone/phone.component';
+import { LookingComponent } from './looking/looking.component';
 
 
 const routes: Routes = [
-  {path:'',component:DescriptionComponent},
+  {path:'',component:LookingComponent},
   {path:'fresh',component:FreshComponent},
+  {path:'description',component:DescriptionComponent},
   {path:'home',component:HomeComponent},
   {path:'Account',component:AccountComponent},
   {path:'Employee',component:EmployeeComponent},

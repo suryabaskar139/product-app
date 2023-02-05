@@ -13,6 +13,7 @@ import { OtpComponent } from './Login/otp/otp.component';
 import { FreshComponent } from './fresh/fresh.component';
 import { BasketComponent } from './basket/basket.component';
 import { DescriptionComponent } from './description/description.component';
+import { LookingComponent } from './looking/looking.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { DescriptionComponent } from './description/description.component';
     OtpComponent,
     FreshComponent,
     BasketComponent,
-    DescriptionComponent
+    DescriptionComponent,
+    LookingComponent
   ],
   imports: [
     BrowserModule,
