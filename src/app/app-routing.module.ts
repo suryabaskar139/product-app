@@ -9,10 +9,12 @@ import { EmployeeComponent } from './Login/employee/employee.component';
 import { OtpComponent } from './Login/otp/otp.component';
 import { PhoneComponent } from './Login/phone/phone.component';
 import { LookingComponent } from './looking/looking.component';
+import { ReceipiesComponent } from './receipies/receipies.component';
 
 
 const routes: Routes = [
   {path:'',component:LookingComponent},
+  {path:'receipies',component:ReceipiesComponent},
   {path:'fresh',component:FreshComponent},
   {path:'description',component:DescriptionComponent},
   {path:'home',component:HomeComponent},

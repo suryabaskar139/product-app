@@ -161,8 +161,44 @@
     
 }
 
+/*----------------------------------------------------------------------------*/
+
+.desc-title-menu{
+    background: #c47f7d;
+    display: flex;
+    align-items:start;
+    justify-content: space-between;
+}
+
+.desc-title-menu h3{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.desc-title-menu img{
+    width: 17px;
+    margin-right: 20px;
+}
+
+/*------------------------------------------------------------------*/
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------*/
+
+
 @media only screen and (max-width:390px){
 
+    .desc-size{
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
     .desc-price{
         display: flex;
         flex-direction: column;

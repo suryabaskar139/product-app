@@ -14,6 +14,7 @@ import { FreshComponent } from './fresh/fresh.component';
 import { BasketComponent } from './basket/basket.component';
 import { DescriptionComponent } from './description/description.component';
 import { LookingComponent } from './looking/looking.component';
+import { ReceipiesComponent } from './receipies/receipies.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { LookingComponent } from './looking/looking.component';
     FreshComponent,
     BasketComponent,
     DescriptionComponent,
-    LookingComponent
+    LookingComponent,
+    ReceipiesComponent
   ],
   imports: [
     BrowserModule,
