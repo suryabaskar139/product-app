@@ -45,8 +45,6 @@ hr{
 }
 
 
-
-
 .gaps{
     padding: 0 5px;
 }
@@ -67,4 +65,10 @@ hr{
 .card-body img{
     width: 8px;
     margin-right: 10px;
+}
+
+@media only screen and (max-width: 576px) {
+	.gaps {
+		padding: 0 3rem;
+	}
 }
