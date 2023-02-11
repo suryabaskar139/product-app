@@ -71,4 +71,7 @@ hr{
 	.gaps {
 		padding: 0 3rem;
 	}
+    .row{
+        margin-bottom: 40px;
+    }
 }
