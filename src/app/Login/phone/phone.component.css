@@ -1,12 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+.size h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #231F40;
+}
+
+.size p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    color: #231F40;
+}
+
+.size img {
+    width: 500px;
+    margin: auto;
+    object-fit: cover;
+}
+
 .box {
-    padding: 50px 0px 50px 50px;
+    padding: 30px 0px 10px 50px;
     align-items: center;
     justify-content: center;
     background: #fff;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.label{
+.label {
     font-size: 12px;
     margin-left: 2px;
     padding-top: 15px;
@@ -22,7 +45,7 @@
     font-family: inherit;
     width: 100%;
     border: 0;
-    border-bottom: 1px solid #f45;
+    border-bottom: 1px solid #E31D1A;
     outline: 0;
     font-size: 13px;
     color: #000;
@@ -33,58 +56,51 @@
 
 
 
-.btn-sub{
-  margin-top: 20px;
-  background-color: #fb5c42;
-  padding: 10px 80px;
-  border-radius: 6px;
-  border: none;
-  text-align: center;
-  color: #fff;
-  font-size: 12px;
+.btn-sub {
+    margin-top: 20px;
+    background-color: #E31D1A;
+    padding: 13px;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
 }
 
-.policy{
+.policy {
     padding-top: 15px;
     padding-left: 3px;
     font-size: 9px;
     font-weight: 300;
 }
 
-.policy span{
-    font-size: 9px;
-    font-weight: bold;
-}
-
-.or{
-    font-size: 8px;
-    color: #000;
-}
-
-.link{
+p{
     font-size: 12px;
-    color: #fb5c42;
-    text-decoration: underline #fb5c42;
-    cursor: pointer;
-  }   
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #2C3149;
+}
 
-.rounded-button {
-    width: 60px;
-    height: 60px;
-    background: #fff;
-    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    color: #ffffff;
-    display: inline-flex;
+p span{
+
+    font-size: 9px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #2C3149;
+}
+
+.link {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #E31D1A;
+    text-decoration: underline #E31D1A;
+    cursor: pointer;
+}
+
+.rounded-icon img {
+    width: 150px;
+    margin: auto;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
-    border-radius: 50%;
-    border: none;
-    text-decoration: none;
-    margin-left: 90px;
-  }
-  
-  .rounded-button i{
-    color: #000;
-  }
-  
+}
