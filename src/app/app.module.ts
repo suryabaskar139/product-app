@@ -15,6 +15,8 @@ import { BasketComponent } from './basket/basket.component';
 import { DescriptionComponent } from './description/description.component';
 import { LookingComponent } from './looking/looking.component';
 import { ReceipiesComponent } from './receipies/receipies.component';
+import { SidebarComponent } from './Dashboard/sidebar/sidebar.component';
+import { EditComponent } from './Dashboard/edit/edit.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { ReceipiesComponent } from './receipies/receipies.component';
     BasketComponent,
     DescriptionComponent,
     LookingComponent,
-    ReceipiesComponent
+    ReceipiesComponent,
+    SidebarComponent,
+    EditComponent
   ],
   imports: [
     BrowserModule,

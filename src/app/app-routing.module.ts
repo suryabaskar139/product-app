@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BasketComponent } from './basket/basket.component';
+import { SidebarComponent } from './Dashboard/sidebar/sidebar.component';
 import { DescriptionComponent } from './description/description.component';
 import { FreshComponent } from './fresh/fresh.component';
 import { HomeComponent } from './home/home.component';
@@ -13,7 +14,9 @@ import { ReceipiesComponent } from './receipies/receipies.component';
 
 
 const routes: Routes = [
-  {path:'',component:LookingComponent},
+
+  {path:'',component:SidebarComponent},
+  {path:'looking',component:LookingComponent},
   {path:'receipies',component:ReceipiesComponent},
   {path:'fresh',component:FreshComponent},
   {path:'description',component:DescriptionComponent},
