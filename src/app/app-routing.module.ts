@@ -12,6 +12,7 @@ import { FreshComponent } from './fresh/fresh.component';
 import { HomeComponent } from './home/home.component';
 import { AccountComponent } from './Login/account/account.component';
 import { EmployeeComponent } from './Login/employee/employee.component';
+import { NumberComponent } from './Login/number/number.component';
 import { OtpComponent } from './Login/otp/otp.component';
 import { PhoneComponent } from './Login/phone/phone.component';
 import { LookingComponent } from './looking/looking.component';
@@ -33,6 +34,7 @@ const routes: Routes = [
   {path:'Account',component:AccountComponent},
   {path:'Employee',component:EmployeeComponent},
   {path:'Phone',component:PhoneComponent},
+  {path:'Number',component:NumberComponent},
   {path:'Otp',component:OtpComponent},
   {path:'basket',component:BasketComponent},
   

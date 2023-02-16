@@ -1,74 +1,79 @@
-.box {
-    padding: 50px 0px 50px 50px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+.size h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #231F40;
+}
+
+.size p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    color: #231F40;
+}
+
+.size img {
+    width: 500px;
+    margin: auto;
+    object-fit: cover;
+}
+
+.otp-box {
+    padding: 30px;
     align-items: center;
     justify-content: center;
     background: #fff;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.rounded-button {
-    width: 60px;
-    height: 60px;
-    background: #fff;
-    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    color: #ffffff;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    border-radius: 50%;
-    border: none;
-    text-decoration: none;
-    margin-left: 90px;
-  }
-  
-  .rounded-button i{
-    color: #000;
-  }
-
-.label{
-    font-size: 12px;
+.label {
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    font-weight: 500;
     margin-left: 2px;
     padding-top: 15px;
 }
 
 
-
-
-.btn-sub{
-  margin-top: 20px;
-  background-color: #fb5c42;
-  padding: 10px 80px;
-  border-radius: 6px;
-  border: none;
-  text-align: center;
-  color: #fff;
-  font-size: 12px;
+.btn-otp {
+    margin-top: 20px;
+    background-color: #E31D1A;
+    padding: 15px;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    color: #fff;
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
-.policy{
-    padding-top: 15px;
+.otp-footer p{
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #2C3149;
+}
+
+.otp-footer p span{
+
+    font-size: 10px; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #2C3149;
     padding-left: 3px;
-    font-size: 9px;
-    font-weight: 300;
 }
 
-.policy span{
-    font-size: 9px;
-    font-weight: bold;
+.rounded-icon{
+    text-align: center;
 }
 
-.or{
-    font-size: 8px;
-    color: #000;
+.rounded-icon img {
+    width: 150px;
+    margin: auto;
+    
 }
-
-.link{
-    font-size: 12px;
-    color: #fb5c42;
-    text-decoration: underline #fb5c42;
-    cursor: pointer;
-  }   
-
-
-  

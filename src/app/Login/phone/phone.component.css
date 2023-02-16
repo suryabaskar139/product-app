@@ -21,7 +21,7 @@
     object-fit: cover;
 }
 
-.box {
+.phone-box {
     padding: 30px;
     align-items: center;
     justify-content: center;
@@ -29,7 +29,7 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.label {
+.phone-label {
     font-size: 11px;
     font-family: 'Poppins', sans-serif;
     color: #707070;
@@ -38,19 +38,19 @@
     padding-top: 15px;
 }
 
-.form_group {
+.phone-form_group {
     position: relative;
     margin-top: -30px;
 }
 
-.form_field::placeholder{
+.phone-form_field::placeholder{
     font-size: 11px;
     font-family: 'Poppins', sans-serif;
     color: #000;
     font-weight: 500;
 }
 
-.form_field {
+.phone-form_field {
     font-family: inherit;
     width: 100%;
     border: 0;
@@ -65,7 +65,7 @@
 
 
 
-.btn-sub {
+.btn-phone {
     margin-top: 20px;
     background-color: #E31D1A;
     padding: 13px;
@@ -74,31 +74,24 @@
     text-align: center;
     color: #fff;
     font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
-.policy {
-    padding-top: 15px;
-    padding-left: 3px;
-    font-size: 9px;
-    font-weight: 300;
+.phone-form_group p{
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 
-p{
-    font-size: 12px;
+.phone-form_group span{
+    font-size: 10px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    color: #2C3149;
 }
 
-p span{
 
-    font-size: 9px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    color: #2C3149;
-}
-
-.link {
+.phone-link {
     font-size: 12px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
