@@ -22,6 +22,7 @@ import { OrderTwoComponent } from './Dashboard/order-two/order-two.component';
 import { OrderThreeComponent } from './Dashboard/order-three/order-three.component';
 import { CartComponent } from './cart/cart.component';
 import { FooterComponent } from './footer/footer.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { FooterComponent } from './footer/footer.component';
     OrderTwoComponent,
     OrderThreeComponent,
     CartComponent,
-    FooterComponent
+    FooterComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,

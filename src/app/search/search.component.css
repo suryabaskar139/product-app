@@ -1,0 +1,46 @@
+
+.search-box{
+    border: 1px #707070 solid;
+}
+
+.search-box i {
+    margin-top: 13px;
+    color: #707070;
+    padding-left: 10px;
+}
+
+.search-box p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #707070;
+    margin-top: 13px;
+    padding-left: 20px;
+}
+
+.search-content{
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.orders-main-btn {
+
+    background: #F0F0F4;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+	.search{
+        flex: row;
+        flex-wrap: wrap;
+    }
+    
+}

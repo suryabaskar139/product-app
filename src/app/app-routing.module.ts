@@ -17,10 +17,13 @@ import { OtpComponent } from './Login/otp/otp.component';
 import { PhoneComponent } from './Login/phone/phone.component';
 import { LookingComponent } from './looking/looking.component';
 import { ReceipiesComponent } from './receipies/receipies.component';
+import { SearchComponent } from './search/search.component';
 
 
 const routes: Routes = [
-  {path:'',component:CartComponent},
+  {path:'',component:DescriptionComponent},
+  {path:'search',component:SearchComponent},
+  {path:'cart',component:CartComponent},
   {path:'order-three',component:OrderThreeComponent},
   {path:'order-two',component:OrderTwoComponent},
   {path:'order',component:OrderComponent},
@@ -29,7 +32,6 @@ const routes: Routes = [
   {path:'looking',component:LookingComponent},
   {path:'receipies',component:ReceipiesComponent},
   {path:'fresh',component:FreshComponent},
-  {path:'description',component:DescriptionComponent},
   {path:'home',component:HomeComponent},
   {path:'Account',component:AccountComponent},
   {path:'Employee',component:EmployeeComponent},
