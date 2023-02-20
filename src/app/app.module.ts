@@ -21,6 +21,7 @@ import { OrderComponent } from './Dashboard/order/order.component';
 import { OrderTwoComponent } from './Dashboard/order-two/order-two.component';
 import { OrderThreeComponent } from './Dashboard/order-three/order-three.component';
 import { CartComponent } from './cart/cart.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { CartComponent } from './cart/cart.component';
     OrderComponent,
     OrderTwoComponent,
     OrderThreeComponent,
-    CartComponent
+    CartComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

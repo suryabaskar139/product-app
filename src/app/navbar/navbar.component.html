@@ -1,71 +1,71 @@
-<nav class="navbar navbar-expand-lg navbar-light w-100 navigation" id="navbar">
-    <div class="container">
-      <a class="navbar-brand font-weight-bold text-white" routerLink="/">chicken</a>
-      <a class="navbar-brand font-weight-bold text-white" routerLink="/">Location</a>
-  
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
-        aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  
-      <div class="collapse navbar-collapse " id="main-navbar">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/"> <i class="fa fa-search"></i> Searches
-             </a>
-          </li>
-  
-          <li class="nav-item">
-            <a class="nav-link" href="#"> <i class="fa fa-shopping-cart"></i> Receipies</a>
-          </li>
-          <!-- Pages -->
-          <li class="nav-item dropdown dropdown-slide">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-delay="350"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <i class="fa fa-server"></i> Categories
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Blog Single</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">404 Page</a></li>
-              <li><a href="#">FAQ</a></li>
-            </ul>
-          </li>
+<nav class="navbar navbar-expand-lg w-100 navigation" id="navbar">
+  <div class="container">
+    <a class="navbar-brand font-weight-bold" routerLink="/">
+      <img src="../../assets/images/Delmon Poultry Logo.svg" alt="">
+    </a>
 
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/Otp"><i class="fa fa-user "></i>Login</a>
-          </li>
-  
-          <li class="nav-item dropdown dropdown-slide">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-delay="350"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <i class="fa fa-shopping-cart"></i>Cart
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
-              <li><a routerLink="/shop">Shop</a></li>
-              <li><a routerLink="/product-single">Product Details</a></li>
-              <li><a routerLink="/checkout">Checkout</a></li>
-              <li><a routerLink="/cart">Cart</a></li>
-            </ul>
-          </li><!-- / Blog -->
 
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fa fa-bell"></i> Notification</a>
-          </li>
+    <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
+      aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa fa-bars"></i>
+  </a>
 
-          <li><button class="nav-btn">English</button></li>
-  
-          <li><button class="nav-btn">Poutry</button></li>
-  
-          <!-- Account -->
-          
-        </ul>
-      </div>
-      
+    <div class="collapse navbar-collapse " id="main-navbar">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item d-flex">
+          <i class="fa fa-search"></i>
+          <a class="nav-link" routerLink="/">Search </a>
+        </li>
 
-  
-      
+        <li class="nav-item d-flex">
+          <i class="fas fa-file-alt"></i>
+          <a class="nav-link" href="#">Receipies</a>
+        </li>
+        <!-- Pages -->
+        <li class="nav-item dropdown dropdown-slide d-flex">
+          <i class="fa fa-th-large"></i>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-delay="350"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+            Categories
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Blog Single</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">404 Page</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item d-flex">
+          <i class="fa fa-user"></i>
+          <a class="nav-link" href="#">Login</a>
+        </li>
+        <li class="nav-item d-flex">
+          <i class="fa fa-shopping-cart"></i>
+          <a class="nav-link" href="#">Cart</a>
+        </li>
+        <li class="nav-item d-flex">
+          <i class="fa fa-bell"></i>
+          <a class="nav-link" href="#">Notifications</a>
+        </li>
+      </ul>
+
+
+
     </div>
-  </nav>
+    <div class="collapse navbar-collapse " id="main-navbar">
+      <ul class="navbar-nav mx-auto">
+        <button class="btn btn-md btn-primary">English</button>
+        <button class="btn btn-md btn-primary mx-2">Poutry</button>
+      </ul>
+
+
+
+    </div>
+
+
+  </div>
+</nav>
