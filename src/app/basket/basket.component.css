@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.fresh-head{
+
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pill-btn{
+    background: #FF8D46;
+    color: #FBFBFB;
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px !important;
+    font-weight: 100;
+    padding:  2px 4px;
+    border-radius: 5px;
+
+}
+
+hr{
+    color: #181717;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+.button-container{
+    flex-flow: wrap;
+    
+}
+
+.btn-receipie{
+    padding: 10px 35px;
+    margin-right: 12px;
+    background: #F0F0F4;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+.btn-receipie:hover{
+    padding: 10px 35px;
+    margin-right: 12px;
+    background: #F0F0F4;
+    color: #E31D1A;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+
+.card img{
+    width: 100px;
+}
+
+.card{
+    position: relative;
+    box-shadow: 4px 4px 2px 2px rgba(0, 0, 0, 0.1);
+    border: #F0F0F4;
+    margin: 30px;
+}
+
+.top-button{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.top-button .btn{
+
+    background: #22AF48;
+    color: #F7F7F7;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    border-radius: 25px;
+    padding: 0 8px;
+}
+
+.top-button img{
+    
+    width: 25px;
+
+}
+
+select{
+
+    padding: 9px;
+    width:40%;
+    height: 32px;
+    border-radius: 5px;
+    background: #C8C8C8;
+    border: none;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+    font-weight: 400;
+}
+
+.fresh-btn{
+    background: #E31D1A;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: lighter;
+    padding: 6px 20px;
+    border-radius: 2px;
+    float: right;
+
+}
+
+.fresh-btn span{
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 25px;
+}
+
+.card-body h5{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.card-body p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.card-body .card-price{
+    color: rgb(255, 68, 77);
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.gaps{
+    padding: 0px;
+}
+
+
+@media only screen and (max-width:767px){
+
+   
+    
+}
+
