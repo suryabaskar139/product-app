@@ -23,6 +23,11 @@
     color: #000000;
 }
 
+.cart-left-textarea, .cart-right-input {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .cart-left-textarea .form-group input{
     padding: 50px;
     background: #F7F7F7;

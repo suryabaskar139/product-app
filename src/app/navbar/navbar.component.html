@@ -1,5 +1,15 @@
 <nav class="navbar navbar-expand-lg w-100 navigation" id="navbar">
   <div class="container">
+    <!---------------
+      <div class="Logo">
+        <h5><i class="fa fa-location-arrow"></i>Location</h5>
+       <div class="d-flex sub-logo">
+        <p>Al Khobar, Saudi Arabia</p>
+        <i class="fa fa-angle-down"></i>
+        </div>
+       </div>
+    -->
+    
     <a class="navbar-brand font-weight-bold" routerLink="/">
       <img src="../../assets/images/Delmon Poultry Logo.svg" alt="">
     </a>
@@ -8,10 +18,10 @@
     <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
       aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fa fa-bars"></i>
-  </a>
+    </a>
 
     <div class="collapse navbar-collapse " id="main-navbar">
-      <ul class="navbar-nav mx-auto">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item d-flex">
           <i class="fa fa-search"></i>
           <a class="nav-link" routerLink="/search">Search </a>
@@ -19,7 +29,7 @@
 
         <li class="nav-item d-flex">
           <i class="fas fa-file-alt"></i>
-          <a class="nav-link" href="#">Receipies</a>
+          <a class="nav-link" routerLink="/looking">Receipies</a>
         </li>
         <!-- Pages -->
         <li class="nav-item dropdown dropdown-slide d-flex">
@@ -50,20 +60,14 @@
           <i class="fa fa-bell"></i>
           <a class="nav-link" href="#">Notifications</a>
         </li>
+        <li>
+          <button class="btn btn-md btn-primary">English</button>
+        </li>
+        <li>
+          <button class="btn btn-md btn-primary">Poutry</button>
+        </li>
       </ul>
 
-
-
     </div>
-    <div class="collapse navbar-collapse " id="main-navbar">
-      <ul class="navbar-nav mx-auto">
-        <button class="btn btn-md btn-primary">English</button>
-        <button class="btn btn-md btn-primary mx-2">Poutry</button>
-      </ul>
-
-
-    </div>
-
-
   </div>
 </nav>

@@ -212,6 +212,20 @@
 
 /*--------------------------------------------------------------------*/
 
+@media only screen and (max-width:991px){
+
+    .desc-cont img{
+        width: 12px;
+    }
+    .desc-cont p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        font-weight: 600;
+        margin: 2px 0 0 10px;
+    
+    }
+}
+
 @media only screen and (max-width:576px){
     .desc .desc-svg {
         top: 30px;
