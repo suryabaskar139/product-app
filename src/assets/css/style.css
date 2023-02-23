@@ -85,3 +85,7 @@
   background: #00000029;
 }
 
+.vertical-dotted-line{
+  border-bottom: 1px dotted #00000029;
+
+}

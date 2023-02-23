@@ -23,6 +23,7 @@ import { OrderThreeComponent } from './Dashboard/order-three/order-three.compone
 import { CartComponent } from './cart/cart.component';
 import { FooterComponent } from './footer/footer.component';
 import { SearchComponent } from './search/search.component';
+import { PaymentComponent } from './Dashboard/payment/payment.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { SearchComponent } from './search/search.component';
     OrderThreeComponent,
     CartComponent,
     FooterComponent,
-    SearchComponent
+    SearchComponent,
+    PaymentComponent
   ],
   imports: [
     BrowserModule,

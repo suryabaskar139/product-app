@@ -6,6 +6,7 @@ import { EditComponent } from './Dashboard/edit/edit.component';
 import { OrderThreeComponent } from './Dashboard/order-three/order-three.component';
 import { OrderTwoComponent } from './Dashboard/order-two/order-two.component';
 import { OrderComponent } from './Dashboard/order/order.component';
+import { PaymentComponent } from './Dashboard/payment/payment.component';
 import { SidebarComponent } from './Dashboard/sidebar/sidebar.component';
 import { DescriptionComponent } from './description/description.component';
 import { FreshComponent } from './fresh/fresh.component';
@@ -23,6 +24,7 @@ import { SearchComponent } from './search/search.component';
 const routes: Routes = [
   {path:'',component:DescriptionComponent},
   {path:'search',component:SearchComponent},
+  {path:'payment',component:PaymentComponent},
   {path:'cart',component:CartComponent},
   {path:'order-three',component:OrderThreeComponent},
   {path:'order-two',component:OrderTwoComponent},
