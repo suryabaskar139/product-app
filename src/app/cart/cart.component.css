@@ -1,3 +1,7 @@
+.cart-border{
+    border-right: 1px solid #707070;
+}
+
 
 .cart{
     background: #F7F7F7;
@@ -105,6 +109,11 @@
     color: #fff;
 }
 
+@media only screen and (max-width:767px){
+    .cart-border{
+        border-right: none;
+    }
+}
 
 
 
