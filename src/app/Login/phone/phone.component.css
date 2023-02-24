@@ -1,39 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-
-.size h5 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    color: #231F40;
-}
-
-.size p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 11px;
-    font-weight: 500;
-    color: #231F40;
-}
-
-.size img {
-    width: 500px;
-    margin: auto;
-    object-fit: cover;
-}
-
 .phone-box {
     padding: 30px;
     align-items: center;
     justify-content: center;
-    background: #fff;
+    background: var(--text-color);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .phone-label {
-    font-size: 11px;
-    font-family: 'Poppins', sans-serif;
-    color: #707070;
-    font-weight: 500;
+
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-regular);
+    color: var(--text-color-one);
     margin-left: 2px;
     padding-top: 15px;
 }
@@ -44,9 +24,11 @@
 }
 
 .phone-form_field::placeholder{
-    font-size: 11px;
-    font-family: 'Poppins', sans-serif;
-    color: #000;
+
+    font-family: var(--font-family);
+    font-size: var(--small-size);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-dark-color);
     font-weight: 500;
 }
 
@@ -54,10 +36,10 @@
     font-family: inherit;
     width: 100%;
     border: 0;
-    border-bottom: 1px solid #E31D1A;
+    border-bottom: 1px solid var(--main-color);
     outline: 0;
     font-size: 13px;
-    color: #000;
+    color: var(--text-dark-color);
     padding: 7px 0;
     background: transparent;
     transition: border-color 0.2s;
@@ -67,36 +49,45 @@
 
 .btn-phone {
     margin-top: 20px;
-    background-color: #E31D1A;
+    background-color: var(--main-color);
     padding: 13px;
     border-radius: 6px;
     border: none;
     text-align: center;
-    color: #fff;
-    font-size: 12px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: var(--small-size);
+    font-weight: var(--font-weight-regular);
 }
 
 .phone-form_group p{
-    font-size: 10px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-family: var(--font-family);
+    font-size: var(--small-size);
+    font-weight: var(--font-weight-regular);
 }
 
 .phone-form_group span{
-    font-size: 10px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    color: var(--text-dark-color-two);
+    font-family: var(--font-family);
+    font-size: var(--small-size);
+    font-weight: var(--font-weight-bold);
 }
 
+.or{
+
+    color: var(--text-dark-color-two);
+    font-family: var(--font-family);
+    font-size: var(--small-size);
+    font-weight: var(--font-weight-small);
+}
 
 .phone-link {
-    font-size: 12px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    color: #E31D1A;
-    text-decoration: underline #E31D1A;
+    color: var(--main-dark-color);
+    font-family: var(--font-family);
+    font-size: var(--small-size);
+    font-weight: var(--font-weight-medium);
+    color: var(--main-color);
+    text-decoration: underline var(--main-color);
     cursor: pointer;
 }
 

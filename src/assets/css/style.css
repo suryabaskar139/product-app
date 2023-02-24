@@ -1,31 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-/*-------------------------------Banner----------------------------*/
+:root {
+  --main-color: #E31D1A;
+  --main-box-color: #00000029;
+  --main-box-color-two: #F0F0F4;
+  --text-color: #FFFFFF;
+  --text-color-one: #707070;
+  --text-color-two: #F7F7F7;
+  --text-dark-color: #000000;
+  --text-dark-color-one: #231F40;
+  --text-dark-color-two: #2C3149;
+  --bagde-color:#22AF48;
+  --heading-h1: 35px;
+  --heading-h2: 30px;
+  --heading-h3: 28px;
+  --heading-h4: 24px;
+  --heading-h5: 22px;
+  --heading-h6: 18px;
+  --para-size: 16px;
+  --small-size: 12px;
+  --font-family: 'Poppins', sans-serif;
+  --font-weight-bold: 600;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+  --font-weight-small: 300;
 
-.top-banner{
-  width:100%;
-  padding:5.875rem 0 9.375rem;
 }
 
-.banner-btn{
-  height: 45px;
-  width: 55%;
-  border: none;
-  outline: none;
-  background-color: #fb5c42;         
-  color: rgb(6, 5, 5);    
-  font-weight: 700;
-  border-radius: 60px;
+/*-------------------------------Account-Employee-Number-Otp-Phone- This all page common code----------------------------------------------------------------------------*/
+
+.Login h5 {
+  font-family: var(--font-family);
+  font-size: var( --heading-h5);
+  font-weight: var(--font-weight-bold);
+  color: var(--main-dark-color);
 }
 
-/*----------------Receipies------------------*/
+.Login p {
+
+  font-family: var(--font-family);
+  font-size: var( --para-size);
+  font-weight: var(--font-weight-regular);
+  color: var(--main-dark-color);
+}
+
+.Login img {
+  width: 500px;
+  margin: auto;
+  object-fit: cover; 
+}
 
 
 
 
 
+/*------------------------------------------------------------------------------------------------------------*/
 
-/*------------------Sidebar-------------------*/
+
 
 
 .sidebox{

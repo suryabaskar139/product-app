@@ -1,49 +1,31 @@
-.size h5 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  color: #231F40;
-}
-
-.size p {
-  font-family: 'Poppins', sans-serif;
-  font-size: 11px;
-  font-weight: 500;
-  color: #231F40;
-}
-
-.size img {
-  width: 500px;
-  margin: auto;
-  object-fit: cover;
-}
 
 .employee-box {
   padding: 20px;
-  background: #FFFFFF;
+  background: var(--text-color);
   box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
   margin-top: 150px;
 }
 
 .employee-box input{
-  background: #F0F0F4;
+  background: var(--main-box-color-two);
   border: none;
 }
 
 .employee-box .form-control::placeholder{
-  font-family: 'Poppins', sans-serif;
-  font-size: 8px;
-  font-weight: 500;
+  font-family: var(--font-family);
+  font-size: var(--small-size);
+  font-weight: var(--font-weight-regular);
+  color: var(--text-dark-color);
   padding-left: 5px;
   border: none;
  
 }
 
 .btn-sub {
-  background-color: #E31D1A;
-  font-family: 'Poppins', sans-serif;
-  font-size: 11px;
-  font-weight: 500;
+  background-color: var(--main-color);
+  font-family: var(--font-family);
+  font-size: var(--small-size);
+  font-weight: var(--font-weight-medium);
   padding: 13px;
-  color: #fff;
+  color: var(--text-color);
 }

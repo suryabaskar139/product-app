@@ -1,52 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-.size h5 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    color: #231F40;
-}
-
-.size p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 11px;
-    font-weight: 500;
-    color: #231F40;
-}
-
-.size img {
-    width: 500px;
-    margin: auto;
-    object-fit: cover; 
-}
-
 .account-box {
     padding: 25px;
     margin: auto;
-    background: #fff;
+    background: var(--text-color);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .account-box h5 {
-
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    color: #000;
+    font-family: var(--font-family);
+    font-size: var( --heading-h6);
+    font-weight: var(--font-weight-bold);
+    color: var(--main-dark-color);
 }
 
 .account-box p {
-    font-size: 9px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    color: #707070;
+    font-family: var(--font-family);
+    font-size: var( --small-size);
+    font-weight: var(--font-weight-small);
+    color: var(--text-color-one);
 }
 
 .account-box .btn-select{
     text-align: center;
     display: flex;
     align-items: center;
-    background: #00000029;
+    background: var(--main-box-color);
     padding: 20px 0px 20px 0px;
     border-radius: 4px;
     font-family: 'Poppins', sans-serif;
@@ -59,10 +38,10 @@
 .account-box .btn-select p{
     width: 100%;
     margin-bottom: 0;
-    font-family: 'Poppins', sans-serif;
-    font-size: 10px;
-    font-weight: 600;
-    color: #000;
+    font-family: var(--font-family);
+    font-size: var( --para-size);
+    font-weight: var(--font-weight-medium);
+    color: var(--main-dark-color);
 }
 
 .account-box .btn-select img {
@@ -72,12 +51,13 @@
 
 .account-box .btn-get {
     margin-top: 20px;
-    background-color: #E31D1A;
-    color: #fff;
+    background-color: var(--main-color);
+    color: var(--text-color);
     padding: 15px 0px;
     border-radius: 6px;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-size: 10px;
-    font-weight: 400;
+    font-family: var(--font-family);
+    font-size: var( --small-size);
+    font-weight: var(--font-weight-regular);
+    
 }
