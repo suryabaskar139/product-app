@@ -4,12 +4,15 @@
   --main-color: #E31D1A;
   --main-box-color: #00000029;
   --main-box-color-two: #F0F0F4;
+  --main-box-color-three: #F1F1F1;
   --text-color: #FFFFFF;
   --text-color-one: #707070;
   --text-color-two: #F7F7F7;
+  --text-color-three: #AFAFAF;
   --text-dark-color: #000000;
   --text-dark-color-one: #231F40;
   --text-dark-color-two: #2C3149;
+  --text-dark-color-three: #0F0C0C;
   --bagde-color:#22AF48;
   --heading-h1: 35px;
   --heading-h2: 30px;
@@ -18,7 +21,8 @@
   --heading-h5: 22px;
   --heading-h6: 18px;
   --para-size: 16px;
-  --small-size: 12px;
+  --medium-size:15px;
+  --small-size: 13px;
   --font-family: 'Poppins', sans-serif;
   --font-weight-bold: 600;
   --font-weight-medium: 500;

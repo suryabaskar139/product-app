@@ -1,22 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-.size h5{
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    color: #231F40;
-}
 
-.size p{
-    font-family: 'Poppins', sans-serif;
-    font-size: 11px;
-    font-weight: 500;
-    color: #231F40;
-}
-
-.size img{
-    width: 500px;
-}
 .look{
     
     align-items: center;
@@ -24,19 +8,20 @@
 
 }
 .look h5{
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
+    font-family: var(--font-family);
+    font-size: var(--heading-h6);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-dark-color-three);
 }
 .look p{
-    font-family: 'Poppins', sans-serif;
-    font-size: 8px;
-    font-weight: 400;
-    color: #231F40;
+    font-family: var(--font-family);
+    font-size: var(--small-size);
+    font-weight: var(--font-weight-regular);
+    color: var(--text-color-one);
 }
 
 .look-content{
-    background: #fff;
+    background: var(--text-color);
     padding: 10px 30px;
     width: max-content;
     align-items: center;
@@ -50,27 +35,29 @@
 }
 
 .look-content p{
-    font-family: 'Poppins', sans-serif;
-    font-size: 13px;
-    font-weight: 500;
-    color: #0F0C0C;
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-regular);
+    color: var(--text-dark-color-three);
     margin-top: 15px;
     margin-left: 5px;
 }
 
-.look-content i{
-    margin-left: 20px;
+.look-img img{
+    width: 10px;
+    margin-top: -4px;
 }
+
 
 .look-btn{
 
-        padding: 8px 90px;
-        border: 1px solid #E31D1A;
+        padding: 10px 90px;
+        border: 1px solid var(--main-color);
         border-radius: 6px;
-        color: #FFFFFF;
-        font-family: 'Poppins', sans-serif;
-        font-size: 14px;
-        font-weight: 500;
-        background: #E31D1A;
+        color: var(--text-color);
+        font-family: var(--font-family);
+        font-size: var(--small-size);
+        font-weight: var(--font-weight-regular);
+        background: var(--main-color);
 
 }

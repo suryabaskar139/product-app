@@ -1,0 +1,11 @@
+
+.bg-login-bar{
+    background: var(--main-color);
+    padding: 15px;
+}
+
+.bg-login-bar img{
+    width: 100px;
+    margin-left: 20px;
+}
+
