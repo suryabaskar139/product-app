@@ -1,7 +1,7 @@
 
 .bg-payment{
     background: #E31D1A;
-    
+    padding: 15px;
 }
 
 .bg-payment a{
@@ -13,7 +13,7 @@
 }
 
 .cart-border{
-    border-right: 1px solid #707070;
+    border-left: 1px solid #707070;
 }
 
 
@@ -103,6 +103,12 @@
     background: #fff;
     box-shadow: 0 0 10px 5px #00000029;
     padding: 25px 40px 10px 40px;
+    width: max-content;
+    margin-left: 15px;
+}
+
+.payment-right{
+    display: flex;
 }
 
 @media only screen and (max-width:390px){
