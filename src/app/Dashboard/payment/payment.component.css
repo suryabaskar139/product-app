@@ -4,6 +4,10 @@
     padding: 15px;
 }
 
+.bg-payment i{
+    font-size: 25px;
+}
+
 .bg-payment a{
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
@@ -111,6 +115,13 @@
     display: flex;
 }
 
+@media only screen and (max-width:830px){
+    .payment-right{
+        flex-flow: wrap;
+        gap: 30px;
+    }
+}
+
 @media only screen and (max-width:390px){
     .payment-right{
         flex-flow: wrap;
@@ -120,7 +131,7 @@
 
 @media only screen and (max-width:767px){
     .cart-border{
-        border-right: none;
+        border-left: none;
     }
 }
 
