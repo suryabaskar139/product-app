@@ -3,17 +3,21 @@
 :root {
   --main-color: #E31D1A;
   --main-box-color: #00000029;
+  --main-border-color: #171515;
   --main-box-color-two: #F0F0F4;
   --main-box-color-three: #F1F1F1;
   --text-color: #FFFFFF;
   --text-color-one: #707070;
   --text-color-two: #F7F7F7;
   --text-color-three: #AFAFAF;
+  --text-color-four:#A3A1A1;
   --text-dark-color: #000000;
   --text-dark-color-one: #231F40;
   --text-dark-color-two: #2C3149;
   --text-dark-color-three: #0F0C0C;
   --bagde-color:#22AF48;
+  --dash-btn-color:#17812E;
+  --dash-btn-bg:#127725;
   --heading-h1: 35px;
   --heading-h2: 30px;
   --heading-h3: 28px;
@@ -58,7 +62,7 @@
 
 
 
-/*------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------Dashboard - Sidebar -----------------------------------------------------------------------*/
 
 
 
@@ -66,61 +70,61 @@
 .sidebox{
   width: max-content;
   padding: 20px;
-  border: 1px solid #171515;
+  border: 1px solid var(--main-border-color);
 }
 
-.sidebox-content{
-  padding-right: 20px;
-}
 .sidebox-content img{
   width: 11px;
 }
 
 .sidebox-content h5{
-  font-family: 'Poppins', sans-serif;
-  font-size: 12px;
-  font-weight: 500;
+  font-family: var(--font-family);
+  font-size: var(--para-size);
+  font-weight: var(--font-weight-medium);
+  color: var(--text-dark-color);
   margin-top: 20px;
   padding-left: 20px;
 }
 
-.sidebox-content h4{
-  font-family: 'Poppins', sans-serif;
-  font-size: 12px;
-  font-weight: 500;
+.sidebox-content h6{
+  font-family: var(--font-family);
+  font-size: var(--para-size);
+  font-weight: var(--font-weight-medium);
+  color: var(--text-dark-color);
   padding-left: 20px;
   margin-top: 6px;
 }
 
 .sidebox-content p{
 
-  font-family: 'Poppins', sans-serif;
-  font-size: 9px;
-  font-weight: 500;
-  color: #A3A1A1;
+  font-family: var(--font-family);
+  font-size: var(--small-size);
+  font-weight: var(--font-weight-regular);
+  color: var(--text-color-four);
   padding-left: 20px;
 }
 
+/*-------------------------------Common for Dashboard folder-------------------------------------------*/
 
 .edit{
-  padding: 40px;
+  padding: 30px;
   border: 1px solid;
 }
 
 .edit h3{
-  font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  color: #000000;
+    font-family: var(--font-family);
+    font-size: var(--heading-h6);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-dark-color);
 }
 
 .vertical-line{
   height: 1px;
   width: auto;
-  background: #00000029;
+  background: var(--main-box-color);
 }
 
 .vertical-dotted-line{
-  border-bottom: 1px dotted #00000029;
+  border-bottom: 1px dotted var(--main-box-color);
 
 }

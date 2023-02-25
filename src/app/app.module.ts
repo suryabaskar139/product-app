@@ -25,6 +25,9 @@ import { FooterComponent } from './footer/footer.component';
 import { SearchComponent } from './search/search.component';
 import { PaymentComponent } from './Dashboard/payment/payment.component';
 import { LoginBarComponent } from './login-bar/login-bar.component';
+import { OrderConfirmComponent } from './Dashboard/order-confirm/order-confirm.component';
+import { OrderCompleteComponent } from './Dashboard/order-complete/order-complete.component';
+import { OrderInvoiceComponent } from './Dashboard/order-invoice/order-invoice.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +53,10 @@ import { LoginBarComponent } from './login-bar/login-bar.component';
     FooterComponent,
     SearchComponent,
     PaymentComponent,
-    LoginBarComponent
+    LoginBarComponent,
+    OrderConfirmComponent,
+    OrderCompleteComponent,
+    OrderInvoiceComponent
   ],
   imports: [
     BrowserModule,

@@ -1,35 +1,24 @@
 .cart-border{
-    border: 1px solid #000000 !important;
+    border: 1px solid var(--text-dark-color) !important;
 }
 
 .orders-main{
-    background: #F7F7F7;
+    background: var(--text-color-two);
     padding: 20px;
 }
 
 .orders-top{
-    background:  #F7F7F7;
+    background:  var(--text-color-two);
     display: flex;
     justify-content: space-around;
 }
 
 .orders-top p{
-    font-family: 'Poppins', sans-serif;
-    font-size: 11px;
-    font-weight: 500;
-    color: #000000;
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-dark-color);
     margin-top: 10px;
-}
-
-.orders-top p::after{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 0%;
-    height: 5px;
-    background: #E31D1A;
-    transition: 0.4s ease-out;
 }
 
 .orders-top p:hover::after {
@@ -38,47 +27,12 @@
   }
 
 .orders-main p{
-    font-family: 'Poppins', sans-serif;
-    font-size: 11px;
-    font-weight: 600;
-    color: #000000;
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-dark-color);
 }
 
-
-
-.orders-main .btn1{
-    background: none;
-    border: 1px solid#E31D1A;
-    font-family: 'Poppins', sans-serif;
-    font-size: 11px;
-    font-weight: 600;
-    color: #E31D1A;
-    margin-right: 20px;
-}
-
-.orders-main .btn1:hover{
-    background: #E31D1A;
-    font-family: 'Poppins', sans-serif;
-    font-size: 11px;
-    font-weight: 600;
-    color: #fff;
-}
-.orders-main .btn2{
-    background: #E31D1A;
-    font-family: 'Poppins', sans-serif;
-    font-size: 11px;
-    font-weight: 600;
-    color: #fff;
-}
-
-.orders-main .btn2:hover{
-    background: none;
-    border: 1px solid#E31D1A;
-    font-family: 'Poppins', sans-serif;
-    font-size: 11px;
-    font-weight: 600;
-    color: #E31D1A;
-}
 
 .orders-main img{
     width: 8px;
@@ -87,11 +41,11 @@
 
 .orders-main-btn{
     
-    background: #b6d8bd;
-    color: #17812E;
-    font-family: 'Poppins', sans-serif;
-    font-size: 10px;
-    font-weight: 600;
+    color: var(--dash-btn-bg);
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-regular);
+    background: var(--dash-btn-color);
     border: none;
     outline: none;
     border-radius: 10px;
