@@ -150,6 +150,7 @@
   font-size: var(--para-size);
   font-weight: var(--font-weight-regular);
   color: var(--text-dark-color);
+  text-align: center;
   margin-top: 10px;
 }
 

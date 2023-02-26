@@ -57,3 +57,17 @@
         gap: 15px;
     }
   }
+
+  @media only screen and (max-width:767px){
+    .orders-top{
+        padding: 10px;
+        flex-flow: wrap;
+    }
+  }
+
+  @media only screen and (max-width:1200px){
+    .orders-top{
+        padding: 10px;
+        flex-flow: wrap;
+    }
+  }

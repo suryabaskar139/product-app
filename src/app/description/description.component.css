@@ -50,6 +50,7 @@
     background: var(--main-box-color-three);
     padding: 15px;
     justify-content: space-around;
+    flex-flow: wrap;
 }
 
 .separator{
@@ -66,7 +67,7 @@
 }
 .desc-cont p{
     font-family: var(--font-family);
-    font-size: var(--small-size);
+    font-size: var(--para-size);
     font-weight: var(--font-weight-bold);
     color: var(--text-dark-color);
     margin: 2px 0 0 10px;
@@ -219,6 +220,7 @@
         margin: 2px 0 0 10px;
     
     }
+
 }
 
 @media only screen and (max-width:576px){
@@ -232,7 +234,10 @@
 }
 
 @media only screen and (max-width:390px){
-
+    .desc-btn-box{
+        flex-direction: column;
+        align-items: center;
+    }
     .desc-size{
         align-items: center;
         justify-content: center;
