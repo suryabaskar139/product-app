@@ -6,6 +6,7 @@
     font-size: var(--para-size);
     font-weight: var(--font-weight-regular);
     color: var(--main-color);
+    padding: 6px 12px;
     margin-right: 20px;
 }
 
@@ -15,6 +16,8 @@
     font-size: var(--para-size);
     font-weight: var(--font-weight-regular);
     color: var(--text-color);
+    padding: 6px 12px;
+    margin-right: 20px;
 }
 .orders-main .btn2{
     background: var(--main-color);
@@ -22,6 +25,7 @@
     font-size: var(--para-size);
     font-weight: var(--font-weight-regular);
     color: var(--text-color);
+    padding: 8px 34px;
 }
 
 .orders-main .btn2:hover{
@@ -31,7 +35,8 @@
     font-size: var(--para-size);
     font-weight: var(--font-weight-regular);
     color: var(--main-color);
-    margin-right: 20px;
+    padding: 8px 34px;
+   
 }
 
 
@@ -41,4 +46,14 @@
     font-size: var(--small-size);
     font-weight: var(--font-weight-medium);
   
+  }
+
+
+  @media only screen and (max-width:576px){
+    .order-btn-container{
+        text-align: center;
+        flex-direction: column;
+        flex-flow: wrap;
+        gap: 15px;
+    }
   }

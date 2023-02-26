@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 .fresh-head{
-
-    color: #000000;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
+    font-family: var(--font-family);
+    font-size: var( --heading-h4);
+    font-weight: var(--font-weight-bold);
+    color: var(--main-dark-color);
 }
 
 hr{
@@ -22,11 +21,11 @@ hr{
 .btn-receipie{
     padding: 10px 35px;
     margin-right: 12px;
-    background: #F0F0F4;
-    color: #000000;
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    font-weight: 500;
+    background: var(--main-box-color-two);
+    color: var(--main-dark-color);
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-regular);
     border: none;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -36,11 +35,11 @@ hr{
 .btn-receipie:hover{
     padding: 10px 35px;
     margin-right: 12px;
-    background: #F0F0F4;
-    color: #E31D1A;
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    font-weight: 500;
+    background: var(--main-box-color-two);
+    color: var(--main-color);
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-regular);
     border: none;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -55,7 +54,7 @@ hr{
 .card{
     position: relative;
     box-shadow: 4px 4px 2px 2px rgba(0, 0, 0, 0.1);
-    border: #F0F0F4;
+    border: var(--main-box-color-two);
     margin: 30px;
 }
 
@@ -67,16 +66,15 @@ hr{
     padding: 20px;
 }
 
-.top-button .btn{
-
-    background: #22AF48;
-    color: #F7F7F7;
+.top-button .desc-btn{
+    background: var(--bagde-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: var(--small-size);
+    font-weight: var(--font-weight-small);
     border: none;
-    font-family: 'Poppins', sans-serif;
-    font-size: 10px;
-    font-weight: 400;
-    border-radius: 25px;
-    padding: 0 8px;
+    padding: 5px 11px;
+    margin-bottom: 20px;
 }
 
 .top-button img{
@@ -89,23 +87,22 @@ select{
 
     padding: 9px;
     width:40%;
-    height: 32px;
     border-radius: 5px;
-    background: #C8C8C8;
+    background: var(--main-box-color-four);
     border: none;
     margin: auto;
-    font-family: 'Poppins', sans-serif;
-    font-size: 9px;
-    font-weight: 400;
+    font-family: var(--font-family);
+    font-size: var(--small-size);
+    font-weight: var(--font-weight-small);
 }
 
 .fresh-btn{
-    background: #E31D1A;
+    background: var(--main-color);
     border: none;
-    color: #FFFFFF;
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    font-weight: 400;
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-small);
     padding: 8px 20px;
     border-radius: 2px;
     float: right;
@@ -118,22 +115,24 @@ select{
 }
 
 .card-body h5{
-
-    font-family: 'Poppins', sans-serif;
-    font-size: 13px;
-    font-weight: 600;
+    font-family: var(--font-family);
+    font-size: var(--heading-h6);
+    font-weight: var(--font-weight-medium);
+    color: var(--main-dark-color);
 }
 
 .card-body p{
-    font-family: 'Poppins', sans-serif;
-    font-size: 11px;
-    font-weight: 400;
+    font-family: var(--font-family);
+    font-size: var(--small-size);
+    font-weight: var(--font-weight-regular);
+    color: var(--text-color-one);
 }
 
 .card-body .card-price{
-    color: rgb(255, 68, 77);
-    font-weight: bold;
-    font-size: 13px;
+    color: var(--main-color);
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-medium);
 }
 
 .gaps{
