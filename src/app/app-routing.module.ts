@@ -3,6 +3,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { BasketComponent } from './basket/basket.component';
 import { CartComponent } from './cart/cart.component';
 import { EditComponent } from './Dashboard/edit/edit.component';
+import { OrderCompleteComponent } from './Dashboard/order-complete/order-complete.component';
+import { OrderConfirmComponent } from './Dashboard/order-confirm/order-confirm.component';
+import { OrderInvoiceComponent } from './Dashboard/order-invoice/order-invoice.component';
 import { OrderThreeComponent } from './Dashboard/order-three/order-three.component';
 import { OrderTwoComponent } from './Dashboard/order-two/order-two.component';
 import { OrderComponent } from './Dashboard/order/order.component';
@@ -26,6 +29,9 @@ const routes: Routes = [
   {path:'search',component:SearchComponent},
   {path:'payment',component:PaymentComponent},
   {path:'cart',component:CartComponent},
+  {path:'invoice',component:OrderInvoiceComponent},
+  {path:'order-confirm',component:OrderConfirmComponent},
+  {path:'order-complete',component:OrderCompleteComponent},
   {path:'order-three',component:OrderThreeComponent},
   {path:'order-two',component:OrderTwoComponent},
   {path:'order',component:OrderComponent},

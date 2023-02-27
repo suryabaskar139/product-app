@@ -1,5 +1,4 @@
-
-.orders-main .btn1{
+.orders-main .btn1 {
     background: none;
     border: 1px solid var(--main-color);
     font-family: var(--font-family);
@@ -10,7 +9,7 @@
     margin-right: 20px;
 }
 
-.orders-main .btn1:hover{
+.orders-main .btn1:hover {
     background: var(--main-color);
     font-family: var(--font-family);
     font-size: var(--para-size);
@@ -19,7 +18,8 @@
     padding: 6px 12px;
     margin-right: 20px;
 }
-.orders-main .btn2{
+
+.orders-main .btn2 {
     background: var(--main-color);
     font-family: var(--font-family);
     font-size: var(--para-size);
@@ -28,7 +28,7 @@
     padding: 8px 34px;
 }
 
-.orders-main .btn2:hover{
+.orders-main .btn2:hover {
     background: none;
     border: 1px solid var(--main-color);
     font-family: var(--font-family);
@@ -36,38 +36,63 @@
     font-weight: var(--font-weight-regular);
     color: var(--main-color);
     padding: 8px 34px;
-   
+
 }
 
 
-.order-muted{
+.order-muted {
     color: var(--text-color-one);
     font-family: var(--font-family);
     font-size: var(--small-size);
     font-weight: var(--font-weight-medium);
-  
-  }
+
+}
 
 
-  @media only screen and (max-width:576px){
-    .order-btn-container{
+
+@media only screen and (max-width:576px) {
+    .order-btn-container {
         text-align: center;
         flex-direction: column;
         flex-flow: wrap;
         gap: 15px;
     }
-  }
+}
 
-  @media only screen and (max-width:767px){
-    .orders-top{
+@media only screen and (max-width:767px) {
+    .orders-top {
         padding: 10px;
         flex-flow: wrap;
     }
-  }
+}
 
-  @media only screen and (max-width:1200px){
-    .orders-top{
+@media only screen and (max-width:1200px) {
+    .orders-top {
         padding: 10px;
         flex-flow: wrap;
     }
-  }
+}
+
+@media only screen and (max-width:500px) {
+    .orders-main-top{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .orders-main p {
+        font-family: var(--font-family);
+        font-size: var(--small-size);
+        font-weight: var(--font-weight-bold);
+        color: var(--text-dark-color);
+    }
+
+    .order-muted {
+        color: var(--text-color-one);
+        font-family: var(--font-family);
+        font-size: var(--small-size);
+        font-weight: var(--font-weight-regular) !important;
+        text-align: center;
+    }
+
+
+}

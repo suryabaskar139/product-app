@@ -1,0 +1,42 @@
+
+
+.invoice-header p{
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-medium);
+    color: var(--main-color);
+}
+
+.invoice-header h4{
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-bold);
+    color: var(--main-dark-color);
+}
+
+.invoice-box {
+    background: var(--dash-btn-color-two);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 0 25px;
+}
+
+.invoice-box p {
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-regular);
+    color: var(--text-color);
+    margin-top: 13px;
+   
+}
+
+@media only screen and (max-width:400px){
+    .invoice-box{
+        flex-direction: column;
+    }
+    .invoice-box p{
+        margin: 5px 10px;
+    }
+ 
+}
