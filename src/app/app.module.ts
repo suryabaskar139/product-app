@@ -28,6 +28,9 @@ import { LoginBarComponent } from './login-bar/login-bar.component';
 import { OrderConfirmComponent } from './Dashboard/order-confirm/order-confirm.component';
 import { OrderCompleteComponent } from './Dashboard/order-complete/order-complete.component';
 import { OrderInvoiceComponent } from './Dashboard/order-invoice/order-invoice.component';
+import { WalletComponent } from './Dashboard/wallet/wallet.component';
+import { AddressComponent } from './Dashboard/address/address.component';
+import { FavouriteComponent } from './Dashboard/favourite/favourite.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +59,10 @@ import { OrderInvoiceComponent } from './Dashboard/order-invoice/order-invoice.c
     LoginBarComponent,
     OrderConfirmComponent,
     OrderCompleteComponent,
-    OrderInvoiceComponent
+    OrderInvoiceComponent,
+    WalletComponent,
+    AddressComponent,
+    FavouriteComponent
   ],
   imports: [
     BrowserModule,

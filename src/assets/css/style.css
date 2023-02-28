@@ -12,6 +12,7 @@
   --text-color-two: #F7F7F7;
   --text-color-three: #AFAFAF;
   --text-color-four:#A3A1A1;
+  --text-color-five:#ACA7A7;
   --text-dark-color: #000000;
   --text-dark-color-one: #231F40;
   --text-dark-color-two: #2C3149;
@@ -76,7 +77,7 @@
 }
 
 .sidebox-content img{
-  width: 11px;
+  width: 15px;
 }
 
 .sidebox-content h5{

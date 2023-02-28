@@ -2,7 +2,9 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BasketComponent } from './basket/basket.component';
 import { CartComponent } from './cart/cart.component';
+import { AddressComponent } from './Dashboard/address/address.component';
 import { EditComponent } from './Dashboard/edit/edit.component';
+import { FavouriteComponent } from './Dashboard/favourite/favourite.component';
 import { OrderCompleteComponent } from './Dashboard/order-complete/order-complete.component';
 import { OrderConfirmComponent } from './Dashboard/order-confirm/order-confirm.component';
 import { OrderInvoiceComponent } from './Dashboard/order-invoice/order-invoice.component';
@@ -11,6 +13,7 @@ import { OrderTwoComponent } from './Dashboard/order-two/order-two.component';
 import { OrderComponent } from './Dashboard/order/order.component';
 import { PaymentComponent } from './Dashboard/payment/payment.component';
 import { SidebarComponent } from './Dashboard/sidebar/sidebar.component';
+import { WalletComponent } from './Dashboard/wallet/wallet.component';
 import { DescriptionComponent } from './description/description.component';
 import { FreshComponent } from './fresh/fresh.component';
 import { HomeComponent } from './home/home.component';
@@ -29,6 +32,9 @@ const routes: Routes = [
   {path:'search',component:SearchComponent},
   {path:'payment',component:PaymentComponent},
   {path:'cart',component:CartComponent},
+  {path:'address',component:AddressComponent},
+  {path:'favourite',component:FavouriteComponent},
+  {path:'wallet',component:WalletComponent},
   {path:'invoice',component:OrderInvoiceComponent},
   {path:'order-confirm',component:OrderConfirmComponent},
   {path:'order-complete',component:OrderCompleteComponent},
