@@ -1,4 +1,9 @@
 
+.orders-main p{
+    cursor: pointer;
+}
+
+
 @media only screen and (max-width:576px) {
     .order-btn-container {
         text-align: center;

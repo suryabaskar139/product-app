@@ -1,0 +1,28 @@
+.address p {
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-regular);
+    color: var(--text-color-one);
+    
+}
+
+
+.address-btn {
+
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-medium);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+
+
+.address-btn:hover {
+
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-color);
+    border: 1px solid var(--main-color);
+    background: var(--main-color);
+}

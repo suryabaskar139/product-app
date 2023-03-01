@@ -31,4 +31,15 @@
 }
 
 
+.btn-edit:hover{
+
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-color);
+    background: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+
+
     

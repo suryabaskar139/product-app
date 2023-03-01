@@ -12,6 +12,7 @@ import { OrderThreeComponent } from './Dashboard/order-three/order-three.compone
 import { OrderTwoComponent } from './Dashboard/order-two/order-two.component';
 import { OrderComponent } from './Dashboard/order/order.component';
 import { PaymentComponent } from './Dashboard/payment/payment.component';
+import { SavedAddressComponent } from './Dashboard/saved-address/saved-address.component';
 import { SidebarComponent } from './Dashboard/sidebar/sidebar.component';
 import { WalletComponent } from './Dashboard/wallet/wallet.component';
 import { DescriptionComponent } from './description/description.component';
@@ -32,6 +33,7 @@ const routes: Routes = [
   {path:'search',component:SearchComponent},
   {path:'payment',component:PaymentComponent},
   {path:'cart',component:CartComponent},
+  {path:'saved-address',component:SavedAddressComponent},
   {path:'address',component:AddressComponent},
   {path:'favourite',component:FavouriteComponent},
   {path:'wallet',component:WalletComponent},

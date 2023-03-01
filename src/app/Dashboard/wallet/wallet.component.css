@@ -34,6 +34,16 @@
     border: 1px solid var(--main-color);
 }
 
+.wallet-btn:hover{
+
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-color);
+    border: 1px solid var(--main-color);
+    background: var(--main-color);
+}
+
 .wallet h6{
     font-family: var(--font-family);
     font-size: var(--heading-h6);

@@ -1,121 +1,118 @@
-.cart-border{
-    border-right: 1px solid #707070;
+.cart-border {
+    border-right: 1px solid var(--text-color-one);
 }
 
 
-.cart{
-    background: #F7F7F7;
+.cart {
+    background: var(--text-color-two);
 }
 
-.cart-h3{
+.cart-h3 {
 
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: #000000;
+    font-family: var(--font-family);
+    font-size: var(--heading-h6);
+    font-weight: var(--font-weight-medium);
+    color: var(--main-dark-color);
 }
 
-.cart-left{
-    background: #F7F7F7;
+.cart-left {
+    background: var(--text-color-two);
 }
 
-.cart-left p{
-
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    color: #000000;
+.cart-left p {
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-regular);
+    color: var(--main-dark-color);
 }
 
-.cart-left-textarea, .cart-right-input {
+.cart-left-textarea,
+.cart-right-input {
     padding-left: 0;
     padding-right: 0;
 }
 
-.cart-left-textarea .form-group input{
+.cart-left-textarea .form-group input {
     padding: 50px;
-    background: #F7F7F7;
+    background: var(--text-color-two);
     border: none;
 }
 
-.cart-left-textarea .form-control::placeholder{
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    font-weight: 600;
-    color: #E31D1A;
+.cart-left-textarea .form-control::placeholder {
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-medium);
+    color: var(--main-color);
     text-align: center;
-    
+
 }
 
-.cart-right-input input{
+.cart-right-input input {
     padding: 25px;
-    background: #F7F7F7;
+    background: var(--text-color-two);
     border: none;
 }
 
-.cart-right-input .form-control::placeholder{
-    font-family: 'Poppins', sans-serif;
-    font-size: 11px;
-    font-weight: 400;
-    color: #000;
+.cart-right-input .form-control::placeholder {
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-regular) !important;
+    color: var(--main-dark-color);
 }
 
-.cart-right-content{
-    background: #F7F7F7;
+.cart-right-content {
+    background: var(--text-color-two);
 }
 
-.cart-right-content p{
-
-    font-family: 'Poppins', sans-serif;
-    font-size: 11px;
-    font-weight: 400;
-    color: #000;
+.cart-right-content p {
+    font-family: var(--font-family) !important;
+    font-size: var(--para-size) !important;
+    font-weight: var(--font-weight-regular) !important;
+    color: var(--main-dark-color);
 }
 
-.cart-right-content img{
+.cart-right-content img {
     width: 25px;
 }
 
-.cart-right-footer p{
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-    color: #000;
-}
-.cart-right-footer span{
-    font-family: 'Poppins', sans-serif;
-    font-size: 11px;
-    font-weight: 600;
-    color: #000;
-}
 
-.cart-right-footer-box{
+.cart-right-footer-box {
     background: #F7F7F7;
 }
 
+.cart-right-footer p {
+    font-family: var(--font-family) !important;
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-regular);
+    color: var(--main-dark-color);
+}
+
+.cart-right-footer span {
+    font-family: var(--font-family) !important;
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-medium);
+    color: var(--main-dark-color);
+}
+
 .cart-right-footer-box p{
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-    color: #000;
+
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-medium);
+    color: var(--main-dark-color);
 }
 
-.cart-right-footer-box button{
+.cart-right-footer-box button {
     margin-top: 10px;
-    background: #E31D1A;
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-    color: #fff;
+    background: var(--main-color);
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-color);
 }
 
-@media only screen and (max-width:767px){
-    .cart-border{
+@media only screen and (max-width:767px) {
+    .cart-border {
         border-right: none;
     }
 }
-
-
-
-
-

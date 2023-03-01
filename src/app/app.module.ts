@@ -31,6 +31,7 @@ import { OrderInvoiceComponent } from './Dashboard/order-invoice/order-invoice.c
 import { WalletComponent } from './Dashboard/wallet/wallet.component';
 import { AddressComponent } from './Dashboard/address/address.component';
 import { FavouriteComponent } from './Dashboard/favourite/favourite.component';
+import { SavedAddressComponent } from './Dashboard/saved-address/saved-address.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import { FavouriteComponent } from './Dashboard/favourite/favourite.component';
     OrderInvoiceComponent,
     WalletComponent,
     AddressComponent,
-    FavouriteComponent
+    FavouriteComponent,
+    SavedAddressComponent
   ],
   imports: [
     BrowserModule,
