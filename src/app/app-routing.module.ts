@@ -5,6 +5,7 @@ import { CartComponent } from './cart/cart.component';
 import { AddressComponent } from './Dashboard/address/address.component';
 import { EditComponent } from './Dashboard/edit/edit.component';
 import { FavouriteComponent } from './Dashboard/favourite/favourite.component';
+import { HelpComponent } from './Dashboard/help/help.component';
 import { OrderCompleteComponent } from './Dashboard/order-complete/order-complete.component';
 import { OrderConfirmComponent } from './Dashboard/order-confirm/order-confirm.component';
 import { OrderInvoiceComponent } from './Dashboard/order-invoice/order-invoice.component';
@@ -12,7 +13,10 @@ import { OrderThreeComponent } from './Dashboard/order-three/order-three.compone
 import { OrderTwoComponent } from './Dashboard/order-two/order-two.component';
 import { OrderComponent } from './Dashboard/order/order.component';
 import { PaymentComponent } from './Dashboard/payment/payment.component';
+import { PointsComponent } from './Dashboard/points/points.component';
 import { SavedAddressComponent } from './Dashboard/saved-address/saved-address.component';
+import { SavedFavouritesComponent } from './Dashboard/saved-favourites/saved-favourites.component';
+import { SettingsComponent } from './Dashboard/settings/settings.component';
 import { SidebarComponent } from './Dashboard/sidebar/sidebar.component';
 import { WalletComponent } from './Dashboard/wallet/wallet.component';
 import { DescriptionComponent } from './description/description.component';
@@ -33,6 +37,10 @@ const routes: Routes = [
   {path:'search',component:SearchComponent},
   {path:'payment',component:PaymentComponent},
   {path:'cart',component:CartComponent},
+  {path:'settings',component:SettingsComponent},
+  {path:'help',component:HelpComponent},
+  {path:'points',component:PointsComponent},
+  {path:'saved-favourites',component:SavedFavouritesComponent},
   {path:'saved-address',component:SavedAddressComponent},
   {path:'address',component:AddressComponent},
   {path:'favourite',component:FavouriteComponent},

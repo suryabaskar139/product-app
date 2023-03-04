@@ -32,6 +32,10 @@ import { WalletComponent } from './Dashboard/wallet/wallet.component';
 import { AddressComponent } from './Dashboard/address/address.component';
 import { FavouriteComponent } from './Dashboard/favourite/favourite.component';
 import { SavedAddressComponent } from './Dashboard/saved-address/saved-address.component';
+import { SavedFavouritesComponent } from './Dashboard/saved-favourites/saved-favourites.component';
+import { HelpComponent } from './Dashboard/help/help.component';
+import { PointsComponent } from './Dashboard/points/points.component';
+import { SettingsComponent } from './Dashboard/settings/settings.component';
 
 @NgModule({
   declarations: [
@@ -64,7 +68,11 @@ import { SavedAddressComponent } from './Dashboard/saved-address/saved-address.c
     WalletComponent,
     AddressComponent,
     FavouriteComponent,
-    SavedAddressComponent
+    SavedAddressComponent,
+    SavedFavouritesComponent,
+    HelpComponent,
+    PointsComponent,
+    SettingsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,50 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-.fresh-head{
-    font-family: var(--font-family);
-    font-size: var( --heading-h4);
-    font-weight: var(--font-weight-bold);
-    color: var(--main-dark-color);
-}
-
-hr{
-    color: #181717;
-    align-items: flex-end;
-    justify-content: right;
-}
-
-.button-container{
-    flex-flow: wrap;
-    
-}
-
-.btn-receipie{
-    padding: 10px 35px;
-    margin-right: 12px;
-    background: var(--main-box-color-two);
-    color: var(--main-dark-color);
-    font-family: var(--font-family);
-    font-size: var(--para-size);
-    font-weight: var(--font-weight-regular);
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 10px;
-
-}
-
-.btn-receipie:hover{
-    padding: 10px 35px;
-    margin-right: 12px;
-    background: var(--main-box-color-two);
-    color: var(--main-color);
-    font-family: var(--font-family);
-    font-size: var(--para-size);
-    font-weight: var(--font-weight-regular);
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 10px;
-
-}
 
 
 .card img{
@@ -78,7 +33,6 @@ hr{
 }
 
 .top-button img{
-    
     width: 23px;
     margin-top: -30px;
 
