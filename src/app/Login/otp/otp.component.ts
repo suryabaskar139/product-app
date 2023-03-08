@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NgOtpInputConfig } from 'ng-otp-input';
+
 
 @Component({
   selector: 'app-otp',
@@ -7,5 +7,21 @@ import { NgOtpInputConfig } from 'ng-otp-input';
   styleUrls: ['./otp.component.css']
 })
 export class OtpComponent {
+  otp:any;
+  
+  config = {
+    allowNumbersOnly: true,
+    length: 4,
+    isPasswordInput: false,
+    disableAutoFocus: false,
+    placeholder: '',
+    inputStyles: {
+      width: '50px',
+      height: '50px',
+    },
+  };
 
+  onOtpChange(event: any) {
+    this.otp = event;
+  }
 }

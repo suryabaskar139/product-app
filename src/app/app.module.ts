@@ -40,6 +40,12 @@ import { SavedFavouritesComponent } from './Dashboard/saved-favourites/saved-fav
 import { HelpComponent } from './Dashboard/help/help.component';
 import { PointsComponent } from './Dashboard/points/points.component';
 import { SettingsComponent } from './Dashboard/settings/settings.component';
+import { LottieModule } from 'ngx-lottie';
+import player from 'lottie-web';
+
+export function playerFactory() {
+  return player;
+}
 
 @NgModule({
   declarations: [
@@ -85,6 +91,7 @@ import { SettingsComponent } from './Dashboard/settings/settings.component';
     CarouselModule,
     FormsModule,
     NgOtpInputModule,
+    LottieModule.forRoot({ player: playerFactory }),
     ReactiveFormsModule
   ],
   providers: [],

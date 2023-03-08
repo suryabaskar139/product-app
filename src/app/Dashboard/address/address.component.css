@@ -3,9 +3,12 @@
     font-size: var(--para-size);
     font-weight: var(--font-weight-regular);
     color: var(--text-color-one);
-    
 }
 
+.img-address{
+    width: 150px;
+    margin: auto !important;
+}
 
 .address-btn {
 

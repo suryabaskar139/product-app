@@ -11,8 +11,15 @@
                 <div class="col-md-12">
                     <form>
                         <div class="form-group address text-center">
-                            
-                            <p >Add your address here, this would be useful for you to <br>navigate between different
+
+
+                            <div class="img-address pb-3">
+                                <ng-lottie [options]="options" (animationCreated)="onAnimate($event)">
+                                </ng-lottie>
+                            </div>
+
+
+                            <p>Add your address here, this would be useful for you to <br>navigate between different
                                 addresses while making any<br> orders to be delivered</p>
 
                             <div class="text-center pt-2 pb-2">

@@ -6,18 +6,20 @@
       <p class="pt-3">Lorem Ipsum has been the industry's <br> standard dummy text</p>
       <img src="../../assets/images/Group 49006.png" class="img-fluid" alt="">
     </div>
-      <div class="col-lg-4 col-md-5 col-sm-12 mt-4">
-        <div class="otp-box">
-            <div class="rounded-icon">
-                <img src="../../../assets/images/Group 48827@2x.png" alt="">
-            </div>
-            <div class="">
-                <label class="label">ENTER OTP</label>
-                <!----------  <ng-otp-input  [formCtrl]="YourFormControl"  [config]="{length:5}"></ng-otp-input> ------->
-                <button class="btn btn-otp btn-block">PROCEED</button>
-                <div class="text-center otp-footer mt-2 pb-5"><p class="policy"> Didn't receive otp? <span>RESEND</span> </p></div>
-            </div>
+    <div class="col-lg-4 col-md-5 col-sm-12 mt-4">
+      <div class="otp-box">
+        <div class="rounded-icon">
+          <img src="../../../assets/images/Group 48827@2x.png" alt="">
+        </div>
+        <div class="">
+          <label class="label">ENTER OTP</label>
+          <ng-otp-input (onInputChange)="onOtpChange($event)" [config]="config"></ng-otp-input>
+          <button class="btn btn-otp btn-block">PROCEED</button>
+          <div class="text-center otp-footer mt-2 pb-5">
+            <p class="policy"> Didn't receive otp? <span>RESEND</span> </p>
+          </div>
         </div>
       </div>
     </div>
   </div>
+</div>

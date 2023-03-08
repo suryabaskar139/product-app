@@ -258,3 +258,25 @@
   font-size: var(--para-size);
   font-weight: var(--font-weight-small);
 }
+
+
+/*----------------------------------------------------------------------------------------*/
+
+.otp-input{
+  border: none !important;
+  border-radius: none !important;
+  border-bottom: 2px solid #E31D1A !important; 
+  overflow:  hidden !important;
+  background-color: transparent !important;
+ 
+}
+
+.otp-input:valid{
+  border: none !important;
+  border-radius: none !important;
+  border-bottom: 2px solid #E31D1A !important;
+  overflow: hidden !important;
+}
+
+
+/*--------------------------------------------------------------------------------------------*/
