@@ -1,0 +1,36 @@
+
+.help h2{
+    font-family: var(--font-family);
+    font-size: var(--heading-h6);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-dark-color);
+}
+
+.help p{
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-regular);
+    color: var(--text-color-one);
+}
+
+.help button{
+    background: none;
+    font-family: var(--font-family);
+    font-size: var(--small-size);
+    font-weight: var(--font-weight-regular);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    padding: 14px 33px;
+}
+
+.help button:hover{
+    background: var(--main-color);
+    font-family: var(--font-family);
+    font-size: var(--small-size);
+    font-weight: var(--font-weight-regular);
+    color: var(--text-color);
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    padding: 14px 33px;
+}
