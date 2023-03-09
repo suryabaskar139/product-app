@@ -1,10 +1,9 @@
-
 <app-navbar></app-navbar>
 
 <div class="container">
     <div class="row mt-5">
         <div class="col-xl-3 col-lg-4 col-md-12 col-sm-12">
-           <app-sidebar></app-sidebar>
+            <app-sidebar></app-sidebar>
         </div>
         <div class="col-xl-9 col-lg-8  col-md-12 col-sm-12">
             <div class="edit help">
@@ -12,12 +11,20 @@
                 <div class="vertical-line"></div>
                 <div class="pb-3"></div>
                 <h2>Contact Delmon</h2>
-                <p class="p-2">Anything you need help with? We are here for you. Connect with us through any mode<br> you prefer from below.</p>
-                <div class="p-1">
-                    <button class="mx-2 "><img src="../../../assets/images/Icon-feather-phone-call.svg"> Call</button>
-                    <button class="mx-2 "><img src="../../../assets/images/Icon-ionic-logo-whatsapp.svg"> Chat</button>
-                    <button class="mx-2 "><img src="../../../assets/images/Icon-ionic-md-mail.svg"> Main</button>
-                </div> 
+                <p class="p-2">Anything you need help with? We are here for you. Connect with us through any mode<br>
+                    you prefer from below.</p>
+                <div class="p-1 help-btn-box">
+                    <button class="mx-2 "><img src="../../../assets/images/Icon-feather-phone-call.svg"
+                            onmouseover="this.src='../../../assets/images/Icon-feather-phone-call-hover.svg'"
+                            onmouseout="this.src='../../../assets/images/Icon-feather-phone-call.svg'"> Call</button>
+                    <button class="mx-2 "><img src="../../../assets/images/Icon-ionic-logo-whatsapp.svg"
+                            onmouseover="this.src='../../../assets/images/Icon-ionic-logo-whatsapp-hover.svg'"
+                            onmouseout="this.src='../../../assets/images/Icon-ionic-logo-whatsapp.svg'"> Chat</button>
+                    <button class="mx-2 "><img src="../../../assets/images/Icon-ionic-md-mail.svg" class="pr-1"
+                            onmouseover="this.src='../../../assets/images/Icon-ionic-md-mail-hover.svg'"
+                            onmouseout="this.src='../../../assets/images/Icon-ionic-md-mail.svg'">Mail</button>
+
+                </div>
             </div>
         </div>
     </div>

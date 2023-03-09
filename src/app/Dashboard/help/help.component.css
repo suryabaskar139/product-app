@@ -34,3 +34,16 @@
     border-radius: 5px;
     padding: 14px 33px;
 }
+
+.help-btn-box{
+    display: flex;
+}
+
+@media only screen and (max-width:450px){
+    .help-btn-box{
+        flex-flow: wrap;
+    }
+    .help-btn-box button{
+        margin-bottom: 20px;
+    }
+}
