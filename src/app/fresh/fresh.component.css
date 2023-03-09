@@ -141,9 +141,62 @@ select{
 }
 
 
-@media only screen and (max-width:767px){
+/*---------------------------------------------Modal----------------------------------------*/
 
-   
-    
+
+.modal-header{
+    display: flex;
+    justify-content: flex-start;
 }
 
+.modal-header img{
+    width: 75px;
+    margin-top: 15px;
+}
+
+.modal-header h3{
+    color: var(--main-dark-color);
+    font-family: var(--font-family);
+    font-size: var(--heading-h6);
+    font-weight: var(--font-weight-medium);
+}
+
+.modal-header p{
+    color: var(--text-color-one);
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-regular);
+    margin-top: -10px;
+}
+
+
+.modal-weight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--main-box-color-two);
+}
+
+.modal-body h4{
+    color: var(--main-dark-color);
+    font-family: var(--font-family);
+    font-size: var(--heading-h6);
+    font-weight: var(--font-weight-medium);
+    margin-top: 15px;
+}
+.modal-body button img{
+    width: 11px;
+    margin-right: 5px;
+}
+
+.modal-body .fresh-btn{
+    background: var(--main-color);
+    border: none;
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: var(--small-size);
+    font-weight: var(--font-weight-small);
+    padding: 5px 20px;
+    border-radius: 2px;
+    float: right;
+}

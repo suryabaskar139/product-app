@@ -44,6 +44,6 @@
         flex-flow: wrap;
     }
     .help-btn-box button{
-        margin-bottom: 20px;
+       margin-top: 20px;
     }
 }

@@ -91,6 +91,7 @@
     color: var(--main-dark-color);
 }
 
+
 @media only screen and (max-width: 500px){
 
     .wallet-box{
@@ -103,3 +104,50 @@
     }
 
 }
+
+.modal-header, .modal-footer{
+    border: none;
+}
+
+.modal-header input{
+    padding: 10px;
+    background: var(--main-box-color-two);
+    border: none;
+}
+
+.modal-header input::placeholder{
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-medium);
+    color: var(--main-dark-color-color);
+}
+
+.btn-amount{
+
+    font-family: var(--font-family);
+    font-size: var(--small-size);
+    font-weight: var(--font-weight-regular);
+    color: var(--main-dark-color);
+    background: none;
+    border: 1px solid var(--text-color-five) !important;
+}
+
+.btn-modal{
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-color);
+    background: var(--main-color);
+    border: none;
+}
+
+.btn-modal:hover{
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-medium);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    background: none;
+    overflow: hidden !important;
+}
+
