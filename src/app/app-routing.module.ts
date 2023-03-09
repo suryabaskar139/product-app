@@ -5,6 +5,7 @@ import { CartComponent } from './cart/cart.component';
 import { AddressComponent } from './Dashboard/address/address.component';
 import { EditComponent } from './Dashboard/edit/edit.component';
 import { FavouriteComponent } from './Dashboard/favourite/favourite.component';
+import { FeedbackComponent } from './Dashboard/feedback/feedback.component';
 import { HelpComponent } from './Dashboard/help/help.component';
 import { OrderCompleteComponent } from './Dashboard/order-complete/order-complete.component';
 import { OrderConfirmComponent } from './Dashboard/order-confirm/order-confirm.component';
@@ -37,6 +38,7 @@ const routes: Routes = [
   {path:'search',component:SearchComponent},
   {path:'payment',component:PaymentComponent},
   {path:'cart',component:CartComponent},
+  {path:'feedback',component:FeedbackComponent},
   {path:'settings',component:SettingsComponent},
   {path:'help',component:HelpComponent},
   {path:'points',component:PointsComponent},

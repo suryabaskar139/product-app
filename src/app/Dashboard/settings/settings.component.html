@@ -1,1 +1,100 @@
-<p>settings works!</p>
+<app-navbar></app-navbar>
+
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-xl-3 col-lg-4 col-md-12 col-sm-12">
+            <app-sidebar></app-sidebar>
+        </div>
+        <div class="col-xl-9 col-lg-8  col-md-12 col-sm-12">
+            <div class="edit">
+                <h3 class="pb-1">Settings</h3>
+                <div class="vertical-line"></div>
+                <div class="pb-3"></div>
+
+                <mat-accordion>
+                    <mat-expansion-panel class="px-1">
+                        <mat-expansion-panel-header>
+                            <mat-panel-title>
+                                Notification
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+                        <div class="vertical-line"></div>
+                        <div class="d-flex justify-content-between mt-3 px-1 help">
+                            <p>Mobile Notification</p>
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                        <div class="vertical-dotted-line"></div>
+                        <div class="d-flex justify-content-between mt-3 px-1 help">
+                            <p>Email Notification</p>
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </mat-expansion-panel>
+
+                    <mat-expansion-panel class="px-1 mt-4">
+                        <mat-expansion-panel-header>
+                            <mat-panel-title>
+                                Language
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+                        <div class="vertical-line"></div>
+                        <div class="d-flex justify-content-between mt-3 px-1 help">
+                            <p>English</p>
+                            <img src="../../../assets/images/English.png" alt="" class="Eng-img">
+                        </div>
+                        <div class="vertical-dotted-line"></div>
+                        <div class="d-flex justify-content-between mt-3 px-1 help Arabic">
+                            <p>Arabic</p>
+                            <img src="../../../assets/images/Arabic.png" alt="">
+                        </div>
+                    </mat-expansion-panel>
+
+                    <mat-expansion-panel class="px-1 mt-4">
+                        <mat-expansion-panel-header>
+                            <mat-panel-title>
+                                About Us
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+                    </mat-expansion-panel>
+
+                    <mat-expansion-panel class="px-1 mt-4">
+                        <mat-expansion-panel-header>
+                            <mat-panel-title>
+                                Privacy Policy
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+                    </mat-expansion-panel>
+
+                    <mat-expansion-panel class="px-1 mt-4">
+                        <mat-expansion-panel-header>
+                            <mat-panel-title>
+                                Terms & Condition
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+                    </mat-expansion-panel>
+
+                    <mat-expansion-panel class="px-1 mt-4 delete">
+                        <mat-expansion-panel-header>
+                            <mat-panel-title>
+                                Delete Account
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+                    </mat-expansion-panel>
+
+
+                </mat-accordion>
+
+
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<app-footer></app-footer>

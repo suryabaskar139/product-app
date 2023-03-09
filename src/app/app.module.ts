@@ -40,8 +40,10 @@ import { SavedFavouritesComponent } from './Dashboard/saved-favourites/saved-fav
 import { HelpComponent } from './Dashboard/help/help.component';
 import { PointsComponent } from './Dashboard/points/points.component';
 import { SettingsComponent } from './Dashboard/settings/settings.component';
+import {MatExpansionModule} from '@angular/material/expansion';
 import { LottieModule } from 'ngx-lottie';
 import player from 'lottie-web';
+import { FeedbackComponent } from './Dashboard/feedback/feedback.component';
 
 export function playerFactory() {
   return player;
@@ -82,12 +84,14 @@ export function playerFactory() {
     SavedFavouritesComponent,
     HelpComponent,
     PointsComponent,
-    SettingsComponent
+    SettingsComponent,
+    FeedbackComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    MatExpansionModule,
     CarouselModule,
     FormsModule,
     NgOtpInputModule,

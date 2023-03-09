@@ -260,7 +260,7 @@
 }
 
 
-/*----------------------------------------------------------------------------------------*/
+/*-------------------------------------------Dashboard OTP page-----------------------------------------------*/
 
 .otp-input{
   border: none !important;
@@ -279,4 +279,28 @@
 }
 
 
-/*--------------------------------------------------------------------------------------------*/
+/*-----------------------------------------Help page---------------------------------------------------*/
+
+
+.mat-expansion-indicator::after {
+  padding: 5px !important;
+  color: #000;
+  
+}
+
+.delete .mat-expansion-indicator::after{
+    border-style: none;
+    border-width: 0;
+    content: none;
+    display: none !important;
+    padding: 0px !important;
+}
+.mat-expansion-panel-header-title{
+  color: var(--text-dark-color);
+  font-family: var(--font-family);
+  font-size: var(--heading-h6);
+  font-weight: var(--font-weight-regular);
+}
+
+/*------------------------------------------------------------------------------------------*/
+

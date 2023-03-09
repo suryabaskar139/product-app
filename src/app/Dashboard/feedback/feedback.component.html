@@ -1,0 +1,41 @@
+
+<app-navbar></app-navbar>
+
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-xl-3 col-lg-4 col-md-12 col-sm-12">
+           <app-sidebar></app-sidebar>
+        </div>
+        <div class="col-xl-9 col-lg-8  col-md-12 col-sm-12">
+            <div class="edit feedback">
+                <h3 class="pb-1">Settings</h3>
+                <div class="vertical-line"></div>
+                <div class="pb-3"></div>
+                <div class="feedback-content">
+                    <div class="img-address">
+                        <ng-lottie [options]="options" (animationCreated)="onAnimate($event)">
+                        </ng-lottie>
+                    </div>
+                    <div class="">
+                        <h2>Send Feedback</h2>
+                        <p class="">We love to improve our service and products and that can<br> be possible if you provide some feedback.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-10 cart-left-textarea mx-auto mt-3">
+                    <form>
+                        <div class="form-group">
+    
+                            <input type="text" class="form-control" id="" placeholder="ADD">
+                        </div>
+                    </form>
+                </div>
+                    
+                <div class="text-center pt-5 pb-3">
+                    <button type="submit" class="btn btn-lg px-5 btn-feedback" routerLink="/">SUBMIT FEEDBACK</button>
+                </div>
+              
+            </div>
+        </div>
+    </div>
+</div>
