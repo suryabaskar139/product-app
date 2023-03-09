@@ -4,17 +4,27 @@
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-   background: none;
+   background: var(--main-color);
   
 }
 
-.medium li{
-   align-items: center !important;
-   align-self:center;
-}
+#pills-tab > li{ 
+    width: 50%;
+ }
 
-@media only screen and (max-width:992px){
+
+
+@media only screen and (max-width:991px){
     .large{
         display: none;
     }
 }
+
+@media only screen and (min-width:992px){
+    .small{
+        display: none;
+    }
+}
+
+
+

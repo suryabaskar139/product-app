@@ -59,3 +59,32 @@
     width: 15px;
 }
 
+@media only screen and (max-width:1023px) {
+    .footer .social-icons hr {
+        width: 40%;
+    }
+
+    .footer .social-icons>div {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 487px) and (max-width:767px) {
+    .footer .social-icons hr {
+        width: 50%;
+    }
+
+    .footer .social-icons>div {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width:486px) {
+    .footer .social-icons hr {
+        width: 20%;
+    }
+
+    .footer .social-icons>div {
+        width: 60%;
+    }
+}

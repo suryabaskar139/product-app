@@ -1,38 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-.desc{
+
+.desc {
     position: relative;
     background: var(--text-color-two);
     padding: 75px;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 }
 
-.desc-svg{
+.desc-svg {
     position: absolute;
     width: 25px;
     top: 50px;
     right: 50px;
 }
 
-.desc-img{
+.desc-img {
     width: 300px;
 }
 
-.desc-head{
+.desc-head {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.desc-text{
+.desc-text {
     font-family: var(--font-family);
     font-size: var(--heading-h4);
     font-weight: var(--font-weight-bold);
-    color: var( --text-dark-color-one);
+    color: var(--text-dark-color-one);
 }
 
-.desc-btn{
+.desc-btn {
     background: var(--bagde-color);
     color: var(--text-color);
     font-family: var(--font-family);
@@ -45,7 +46,7 @@
 
 /*----------------------------------------------*/
 
-.desc-box{
+.desc-box {
     display: flex;
     background: var(--main-box-color-three);
     padding: 15px;
@@ -53,19 +54,20 @@
     flex-flow: wrap;
 }
 
-.separator{
+.separator {
     border-left: 1px groove var(--text-dark-color);
-    
+
 }
 
-.desc-cont{
+.desc-cont {
     display: flex;
 }
 
-.desc-cont img{
+.desc-cont img {
     width: 15px;
 }
-.desc-cont p{
+
+.desc-cont p {
     font-family: var(--font-family);
     font-size: var(--para-size);
     font-weight: var(--font-weight-bold);
@@ -76,24 +78,24 @@
 
 /*---------------------------------------------------------------------------*/
 
-.desc-con{
+.desc-con {
 
     font-family: var(--font-family);
     font-size: var(--heading-h6);
     font-weight: var(--font-weight-bold);
-    color: var( --text-dark-color-one);
+    color: var(--text-dark-color-one);
 }
 
-.desc-cons{
+.desc-cons {
     font-family: var(--font-family);
     font-size: var(--small-size);
     font-weight: var(--font-weight-medium);
-    color: var( --text-color-one);
+    color: var(--text-color-one);
 }
 
 
 
-.desc-button{
+.desc-button {
     padding: 12px 36px;
     border: 1px solid var(--text-color-one);
     border-radius: 6px;
@@ -106,7 +108,7 @@
     margin-top: 10px;
 }
 
-.desc-button:hover{
+.desc-button:hover {
     padding: 12px 36px;
     border: 1px solid var(--text-color-one);
     border-radius: 6px;
@@ -119,7 +121,7 @@
 
 /*---------------------------------------------------------------------------*/
 
-.desc-btn-box{
+.desc-btn-box {
     background: var(--text-color);
     box-shadow: -5px -8px 15px var(--main-box-color);
     display: flex;
@@ -127,21 +129,21 @@
     padding: 10px;
 }
 
-.desc-btn-box p{
+.desc-btn-box p {
     font-family: var(--font-family);
     font-size: var(--para-size);
     font-weight: var(--font-weight-medium);
     color: var(--text-dark-color);
 }
 
-.desc-btn-box span{
+.desc-btn-box span {
     font-family: var(--font-family);
     font-size: var(--para-size);
     font-weight: var(--font-weight-medium);
     color: var(--main-color);
 }
 
-.desc-btn-box button{
+.desc-btn-box button {
     margin-top: 10px;
     background: var(--main-color);
     font-family: var(--font-family);
@@ -154,13 +156,13 @@
 /*----------------------------------------------------------------------------*/
 
 
-.desc-title-menu{
+.desc-title-menu {
     display: flex;
-    align-items:start;
+    align-items: start;
     justify-content: space-between;
 }
 
-.desc-title-menu h3{
+.desc-title-menu h3 {
 
     font-family: var(--font-family);
     font-size: var(--heading-h6);
@@ -168,38 +170,38 @@
     color: var(--text-dark-color);
 }
 
-.desc-title-menu img{
+.desc-title-menu img {
     width: 16px;
     margin-right: 15px;
 }
 
 /*------------------------------------------------------------------*/
 
-.gaps{
+.gaps {
     padding: 0 5px;
 }
 
-.card-body{
+.card-body {
     display: flex;
     align-items: start;
     justify-content: space-between;
     background: var(--main-box-color);
 }
 
-.card-body h5{
+.card-body h5 {
     font-family: var(--font-family);
     font-size: var(--para-size);
     font-weight: var(--font-weight-regular);
     color: var(--text-dark-color);
 }
 
-.card-body img{
+.card-body img {
     width: 8px;
     margin-right: 10px;
     margin-top: 1px;
 }
 
-.c-gap{
+.c-gap {
     padding: 20px 20px 8px 20px;
 }
 
@@ -208,51 +210,59 @@
 
 /*--------------------------------------------------------------------*/
 
-@media only screen and (max-width:991px){
+@media only screen and (max-width:991px) {
 
-    .desc-cont img{
+    .desc-cont img {
         width: 12px;
     }
-    .desc-cont p{
+
+    .desc-cont p {
         font-family: 'Poppins', sans-serif;
         font-size: 10px;
         font-weight: 600;
         margin: 2px 0 0 10px;
-    
+
     }
 
 }
 
-@media only screen and (max-width:576px){
+@media only screen and (max-width:576px) {
     .desc .desc-svg {
         top: 30px;
         right: 30px;
     }
+
     .gaps {
-		padding: 0 3rem;
-	}
+        padding: 0 3rem;
+    }
 }
 
-@media only screen and (max-width:390px){
-    .desc-btn-box{
+@media only screen and (max-width:390px) {
+    .desc-btn-box {
         flex-direction: column;
         align-items: center;
     }
-    .desc-size{
+
+    .desc-size {
         align-items: center;
         justify-content: center;
         margin: auto;
     }
-    .desc-price{
+
+    .desc-price {
         display: flex;
         flex-direction: column;
     }
-    .desc-cont p{
+
+    .desc-cont p {
         font-family: 'Poppins', sans-serif;
         font-size: 8px;
         font-weight: 600;
         margin: 2px 0 0 10px;
-    
+
     }
-    
+
 }
+
+/*-------------------------------------------------------------------------------*/
+

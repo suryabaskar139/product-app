@@ -300,3 +300,21 @@
 
 /*------------------------------------------------------------------------------------------*/
 
+
+.owl-next,
+.owl-prev {
+    background: unset !important;
+}
+
+.owl-nav {
+    position: absolute;
+    top: -79px;
+    right: 0;
+}
+
+.owl-next img,
+.owl-prev img {
+    width: 15px;
+}
+
+
