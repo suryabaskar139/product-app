@@ -1,36 +1,25 @@
-<app-navbar></app-navbar>
+<div class="edit">
 
-<div class="container">
-    <div class="row mt-5">
-        <div class="col-xl-3 col-lg-4 col-md-12 col-sm-12">
-            <app-sidebar></app-sidebar>
-        </div>
-        <div class="col-xl-9 col-lg-8  col-md-12 col-sm-12">
-            <div class="edit">
-
-                <div class="col-md-12">
-                    <form>
-                        <div class="form-group address text-center">
+    <div class="col-md-12">
+        <form>
+            <div class="form-group address text-center">
 
 
-                            <div class="img-address pb-3">
-                                <ng-lottie [options]="options" (animationCreated)="onAnimate($event)">
-                                </ng-lottie>
-                            </div>
-
-
-                            <p>Add your address here, this would be useful for you to <br>navigate between different
-                                addresses while making any<br> orders to be delivered</p>
-
-                            <div class="text-center pt-2 pb-2">
-                                <button type="submit" class="btn btn-lg px-5 address-btn">ADD ADDRESS</button>
-                            </div>
-                        </div>
-
-                    </form>
+                <div class="img-address pb-3">
+                    <ng-lottie [options]="options" (animationCreated)="onAnimate($event)">
+                    </ng-lottie>
                 </div>
 
+
+                <p>Add your address here, this would be useful for you to <br>navigate between different
+                    addresses while making any<br> orders to be delivered</p>
+
+                <div class="text-center pt-2 pb-2">
+                    <button type="submit" class="btn btn-lg px-5 address-btn">ADD ADDRESS</button>
+                </div>
             </div>
-        </div>
+
+        </form>
     </div>
+
 </div>

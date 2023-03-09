@@ -31,10 +31,12 @@ import { PhoneComponent } from './Login/phone/phone.component';
 import { LookingComponent } from './looking/looking.component';
 import { ReceipiesComponent } from './receipies/receipies.component';
 import { SearchComponent } from './search/search.component';
+import { TabComponent } from './tab/tab.component';
 
 
 const routes: Routes = [
   {path:'',component:DescriptionComponent},
+  {path:'tab',component:TabComponent},
   {path:'search',component:SearchComponent},
   {path:'payment',component:PaymentComponent},
   {path:'cart',component:CartComponent},

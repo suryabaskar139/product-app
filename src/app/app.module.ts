@@ -44,6 +44,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import { LottieModule } from 'ngx-lottie';
 import player from 'lottie-web';
 import { FeedbackComponent } from './Dashboard/feedback/feedback.component';
+import { TabComponent } from './tab/tab.component';
 
 export function playerFactory() {
   return player;
@@ -85,7 +86,8 @@ export function playerFactory() {
     HelpComponent,
     PointsComponent,
     SettingsComponent,
-    FeedbackComponent
+    FeedbackComponent,
+    TabComponent
   ],
   imports: [
     BrowserModule,
