@@ -31,6 +31,7 @@ export class DescriptionComponent {
       1140:{
         items:4
       }
+      
     },
     nav: true
   }
