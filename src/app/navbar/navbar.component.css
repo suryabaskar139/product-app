@@ -23,7 +23,7 @@
   color: #fff;
 }
 
-.navbar img {
+.navbar-brand img {
   width: 150px;
   margin-top: -15px;
   margin-right: 40px;
@@ -218,6 +218,7 @@
     padding: 10px 0px;
   }
 }
+
 
 
 .navbar-nav .nav-link {

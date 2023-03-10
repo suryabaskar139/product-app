@@ -1,5 +1,7 @@
-.cart-border {
-    border-right: 1px solid var(--text-color-one);
+
+
+.cart-borders {
+    border-left: 1px solid var(--text-color-one);
 }
 
 
@@ -46,6 +48,27 @@
     text-align: center;
 
 }
+
+.inc-container input{
+    width: 10% !important;
+    border: none;
+    text-align: center;
+}
+
+.inc-container input::placeholder{
+  padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .cart-right-input input {
     padding: 25px;
@@ -112,7 +135,7 @@
 }
 
 @media only screen and (max-width:767px) {
-    .cart-border {
-        border-right: none;
+    .cart-borders{
+        border-left: none;
     }
 }

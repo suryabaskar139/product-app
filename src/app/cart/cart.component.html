@@ -8,7 +8,8 @@
             <div class="col-md-10 cart-left p-4 mt-3">
                 <div class="d-flex justify-content-between">
                     <p>Chicken Curry Cut <br> 500g</p>
-                    <div>
+                    <div class="">
+                        
                         <p>45BD</p>
                     </div>
                 </div>
@@ -28,8 +29,18 @@
                     </div>
                 </form>
             </div>
+
+            <div class="d-flex inc-container">
+                <img src="../../assets/images/Icon-main-feather-minus.svg" alt="" (click)="minus()">
+                <input type="text" class="" placeholder="" [(ngModel)]="inputnumber">
+                <img src="../../assets/images/Icon-main-feather-plus.svg" alt="" (click)="plus()">
+            </div>
+
+          
+                
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12">
+
+        <div class="col-lg-6 col-md-6 col-sm-12 cart-borders">
             <div class="mx-5">
 
                 <h3 class="cart-h3 pt-3 pb-3">Coupons</h3>
