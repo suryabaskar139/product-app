@@ -1,74 +1,70 @@
-<nav class="navbar navbar-expand-lg w-100  navigation" id="navbar">
-  <div class="container">
+<nav class="navbar navbar-expand-lg">
 
-    <a class="navbar-brand font-weight-bold" routerLink="/">
+   
+    <a class="navbar-brand" routerLink="/">
       <img src="../../assets/images/delmon-main-logo.svg" alt="">
     </a>
-
-     <!-------------------- \
-      <div class="Logo">
-        <h5><i class="fa fa-location-arrow"></i>Location</h5>
-       <div class="d-flex sub-logo">
-        <p>Al Khobar, Saudi Arabia</p>
-        <i class="fa fa-angle-down"></i>
-        </div>
+    <div class="navbar-brand logo">
+      <h5><i class="fa fa-location-arrow"></i>Location</h5>
+     <div class="d-flex sub-logo">
+      <p>Al Khobar, Saudi Arabia</p>
+      <i class="fa fa-angle-down"></i>
       </div>
-       -------------------->
-
-
-    <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
-      aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fa fa-bars"></i>
-    </a>
-
-    <div class="collapse navbar-collapse " id="main-navbar">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item d-flex">
-          <img src="../../assets/images/Icon-nav-search.svg" alt="">
-          <a class="nav-link" routerLink="/search">Search </a>
-        </li>
-
-        <li class="nav-item d-flex">
-          <img src="../../assets/images/Icon-nav-receipie.svg" alt="">
-          <a class="nav-link" routerLink="/looking">Receipies</a>
-        </li>
-        <!-- Pages -->
-        <li class="nav-item dropdown dropdown-slide d-flex">
-          <img src="../../assets/images/Icon-nav-dashboard.svg" alt="">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-delay="350"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Categories
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
-            <li><a routerLink="/fresh"><i class="fa fa-circle"></i>Fresh</a></li>
-            <li><a href="#"><i class="fa fa-circle"></i>Frozen</a></li>
-            <li><a href="#"><i class="fa fa-circle"></i>Marinated</a></li>
-            <li><a href="#"><i class="fa fa-circle"></i>Category 4</a></li>
-            <li><a href="#"><i class="fa fa-circle"></i>Category 5</a></li>
-            <li><a routerLink="/basket"><i class="fa fa-circle"></i>Basket</a></li>
-          </ul>
-        </li>
-
-        <li class="nav-item d-flex">
-          <img src="../../assets/images/Icon-nav-user.svg" alt="">
-          <a class="nav-link" routerLink="/Account">Login</a>
-        </li>
-        <li class="nav-item d-flex">
-          <img src="../../assets/images/Icon-nav-cart.svg" alt="">
-          <a class="nav-link" routerLink="/cart">Cart</a>
-        </li>
-        <li class="nav-item d-flex">
-          <img src="../../assets/images/Icon-nav-info.svg" alt="">
-          <a class="nav-link" href="#">Notifications</a>
-        </li>
-        <li>
-          <button class="btn btn-md btn-primary">English</button>
-        </li>
-        <li>
-          <button class="btn btn-md btn-primary">Poutry</button>
-        </li>
-      </ul>
-
     </div>
+   
+ 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-bars"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item d-flex">
+        <img src="../../assets/images/Icon-nav-search.svg" alt="">
+        <a class="nav-link" routerLink="/search">Search </a>
+      </li>
+
+      <li class="nav-item d-flex">
+        <img src="../../assets/images/Icon-nav-receipie.svg" alt="">
+        <a class="nav-link" routerLink="/looking">Receipies</a>
+      </li>
+      <!-- Pages -->
+      <li class="nav-item dropdown dropdown-slide d-flex">
+        <img src="../../assets/images/Icon-nav-dashboard.svg" alt="">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-delay="350"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Categories
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
+          <li><a routerLink="/fresh"><i class="fa fa-circle"></i>Fresh</a></li>
+          <li><a href="#"><i class="fa fa-circle"></i>Frozen</a></li>
+          <li><a href="#"><i class="fa fa-circle"></i>Marinated</a></li>
+          <li><a href="#"><i class="fa fa-circle"></i>Category 4</a></li>
+          <li><a href="#"><i class="fa fa-circle"></i>Category 5</a></li>
+          <li><a routerLink="/basket"><i class="fa fa-circle"></i>Basket</a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item d-flex">
+        <img src="../../assets/images/Icon-nav-user.svg" alt="">
+        <a class="nav-link" routerLink="/Account">Login</a>
+      </li>
+      <li class="nav-item d-flex">
+        <img src="../../assets/images/Icon-nav-cart.svg" alt="">
+        <a class="nav-link" routerLink="/cart">Cart</a>
+      </li>
+      <li class="nav-item d-flex">
+        <img src="../../assets/images/Icon-nav-info.svg" alt="">
+        <a class="nav-link" href="#">Notifications</a>
+      </li>
+      <li class="nav-item">
+        <button class="btn btn-md btn-nav">English</button>
+      </li>
+      <li class="nav-item">
+        <button class="btn btn-md btn-nav">Poultry</button>
+      </li>
+    </ul>
+    
   </div>
 </nav>
