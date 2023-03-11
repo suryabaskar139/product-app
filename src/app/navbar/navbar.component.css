@@ -1,4 +1,11 @@
 
+.navbar-toggler {
+  color: var(--text-color);
+  border: transparent;
+  outline: transparent;
+  margin-left: auto;
+}
+
 .logo h5 {
   color: var(--text-color);
   font-family: var(--font-family);
@@ -151,4 +158,87 @@
   opacity: 1;
   visibility: visible;
   z-index: 9999;
+}
+
+
+@media only screen and (max-width:1280px) {
+  .navbar-nav>li{
+    padding: 0 5px !important;
+  }
+}
+
+
+@media only screen and (max-width:1210px){
+    
+  .navbar-nav>li{
+    padding: 0 4px!important;
+  }
+
+  
+
+.navbar-brand img {
+  width: 120px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+ 
+.navbar-nav>li>a {
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: var(--small-size);
+  font-weight: var(--font-weight-small);
+  padding: 20px 5px;
+  text-transform: capitalize;
+  -webkit-transition: .2s ease-in-out 0s;
+  transition: .2s ease-in-out 0s;
+  letter-spacing: .5px;
+}
+
+.navbar-nav .btn-nav{
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: var(--small-size);
+  font-weight: var(--font-weight-small);
+  border: 1px solid var(--text-color);
+  border-radius: 0 !important;
+  margin-top: 10px;
+}
+
+
+.logo h5 {
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: var(--very-small-size);
+  font-weight: var(--font-weight-medium);
+  margin-top: 10px;
+}
+
+
+.sub-logo p {
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: var(--very-small-size);
+  font-weight: var(--font-weight-small);
+  margin-top: -10px;
+}
+
+.sub-logo i {
+  font-size: 16px;
+  color: var(--text-color);
+  margin-top: -9px;
+}
+
+}
+
+
+@media only screen and (max-width:1020px){
+  .navbar-nav>li{
+    padding: 0px 2px!important;
+  }
+
+}
+
+@media only screen and (max-width:991px){
+
 }
