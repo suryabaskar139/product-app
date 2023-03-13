@@ -23,6 +23,7 @@ import { WalletComponent } from './Dashboard/wallet/wallet.component';
 import { DescriptionComponent } from './description/description.component';
 import { FreshComponent } from './fresh/fresh.component';
 import { HomeComponent } from './home/home.component';
+import { IngredientsComponent } from './ingredients/ingredients.component';
 import { AccountComponent } from './Login/account/account.component';
 import { EmployeeComponent } from './Login/employee/employee.component';
 import { NumberComponent } from './Login/number/number.component';
@@ -67,6 +68,7 @@ const routes: Routes = [
   {path:'Number',component:NumberComponent},
   {path:'Otp',component:OtpComponent},
   {path:'basket',component:BasketComponent},
+  {path:'ingredients',component:IngredientsComponent}
   
 
 ];

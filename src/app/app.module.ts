@@ -45,6 +45,7 @@ import { LottieModule } from 'ngx-lottie';
 import player from 'lottie-web';
 import { FeedbackComponent } from './Dashboard/feedback/feedback.component';
 import { TabComponent } from './tab/tab.component';
+import { IngredientsComponent } from './ingredients/ingredients.component';
 
 export function playerFactory() {
   return player;
@@ -87,7 +88,8 @@ export function playerFactory() {
     PointsComponent,
     SettingsComponent,
     FeedbackComponent,
-    TabComponent
+    TabComponent,
+    IngredientsComponent
   ],
   imports: [
     BrowserModule,
