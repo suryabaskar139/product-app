@@ -76,7 +76,7 @@
 /*---------------------------------------------------------------------*/
 
 
-.desc-title-menu h3 {
+.home-title-menu h3 {
 
     font-family: var(--font-family);
     font-size: var(--heading-h4);
@@ -85,7 +85,7 @@
 }
 
 
-.desc-title-menu p {
+.home-title-menu p {
 
     font-family: var(--font-family);
     font-size: var(--para-size);
@@ -93,8 +93,6 @@
     color: var(--text-dark-color-one);
 }
 
-
-/*------------------------------------------------------------------*/
 
 .gaps {
     padding: 0 5px;
@@ -155,7 +153,7 @@
 }
 
 
-.fresh-btn{
+.home-card-btn{
     background: var(--main-color);
     border: none;
     color: var(--text-color);
@@ -169,7 +167,7 @@
 
 }
 
-.fresh-btn img{
+.home-card-btn img{
    width: 11px;
    font-weight: 600;
    margin-right: 5px;
@@ -189,7 +187,115 @@
     box-shadow: 5px 5px 10px #d8d0d0;
 }
 
+/*----------------------------------------------------------------------*/
 
+.product-title-menu h3{
+    font-family: var(--font-family);
+    font-size: var(--heading-h4);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-dark-color-one);
+}
+
+
+
+.product .card img{
+    width: 100px;
+}
+
+.product .card{
+    position: relative;
+    box-shadow: 5px 10px 10px #e9e2e2;
+    border: var(--main-box-color-two);
+    margin: 30px;
+}
+
+.product .top-button{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.product .top-button .desc-btn{
+    background: var(--bagde-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: var(--small-size);
+    font-weight: var(--font-weight-small);
+    border: none;
+    padding: 5px 11px;
+    margin-bottom: 20px;
+}
+
+.product .top-button img{
+    
+    width: 23px;
+    margin-top: -30px;
+
+}
+
+select{
+
+    padding: 9px;
+    width:40%;
+    border-radius: 5px;
+    background: var(--main-box-color-four);
+    border: none;
+    margin: auto;
+    font-family: var(--font-family);
+    font-size: var(--small-size);
+    font-weight: var(--font-weight-small);
+}
+
+.product .fresh-btn{
+    background: var(--main-color);
+    border: none;
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-small);
+    padding: 8px 20px;
+    border-radius: 2px;
+    float: right;
+
+}
+
+.product .fresh-btn img{
+   width: 11px;
+   margin-right: 5px;
+}
+
+.product .card-body h5{
+    font-family: var(--font-family);
+    font-size: var(--heading-h6);
+    font-weight: var(--font-weight-medium);
+    color: var(--main-dark-color);
+}
+
+.product .card-body p{
+    font-family: var(--font-family);
+    font-size: var(--small-size);
+    font-weight: var(--font-weight-regular);
+    color: var(--text-color-one);
+}
+
+.product .card-body .card-price{
+    color: var(--main-color);
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-medium);
+}
+
+.product .gaps{
+    padding: 0px;
+}
+
+
+.product .fresh-btn {
+    display: flex;
+    align-items: center;
+}
 
 
 /*-----------------------------------------------------------------------*/
