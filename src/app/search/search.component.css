@@ -1,37 +1,40 @@
 
-.search-box{
-    border: 1px #707070 solid;
+
+input{
+    border: 1px solid var(--text-color-one);
+    position: relative;
 }
 
-.search-box i {
-    margin-top: 13px;
-    color: #707070;
-    padding-left: 10px;
+img{
+    position: absolute;
+    top: 160px;
+    left: 130px;
 }
 
-.search-box p{
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-    color: #707070;
-    margin-top: 13px;
-    padding-left: 20px;
+
+input::placeholder{
+    font-family: var(--font-family);
+    font-size: var( --para-size);
+    font-weight: var(--font-weight-regular);
+    color: var(--text-color-one);
+   padding-left: 40px;
 }
 
-.search-content{
-    color: #000;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
+
+h3{
+    font-family: var(--font-family);
+    font-size: var( --heading-h6);
+    font-weight: var(--font-weight-bold);
+    color: var(--main-dark-color);
 }
 
 .orders-main-btn {
 
-    background: #F0F0F4;
-    color: #000;
-    font-family: 'Poppins', sans-serif;
-    font-size: 10px;
-    font-weight: 600;
+    background: var(--main-box-color-two);
+    font-family: var(--font-family);
+    font-size: var( --para-size);
+    font-weight: var(--font-weight-regular);
+    color: var(--main-dark-color);
     border: none;
     outline: none;
     border-radius: 10px;
