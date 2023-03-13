@@ -318,4 +318,22 @@
     width: 15px;
 }
 
+/*-----------------------------------------------------*/
 
+
+.home-slider .owl-next,
+.home-slider .owl-prev {
+    background: unset !important;
+}
+
+.home-slider .owl-nav {
+    position: absolute;
+    top: -99px;
+    right: 0;
+}
+
+
+.home-slider .owl-next img,
+.home-slider .owl-prev img {
+   width: 45px;
+}

@@ -21,6 +21,11 @@
     border-radius: 15px;
 }
 
+.home img{
+    width: 800px;
+    margin-left: 115px;
+}
+
 .categories{
     display: flex;
     margin: auto;
@@ -67,6 +72,127 @@
     width: 100px;
     object-fit: cover;
 }
+
+/*---------------------------------------------------------------------*/
+
+
+.desc-title-menu h3 {
+
+    font-family: var(--font-family);
+    font-size: var(--heading-h4);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-dark-color-one);
+}
+
+
+.desc-title-menu p {
+
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-regular);
+    color: var(--text-dark-color-one);
+}
+
+
+/*------------------------------------------------------------------*/
+
+.gaps {
+    padding: 0 5px;
+}
+
+.home-card img{
+    position: relative;
+}
+
+.card-offer{
+    position: absolute;
+    top: 120px;
+    left: 25px;
+}
+
+.card-offer h3{
+    font-family: var(--font-family);
+    font-size: var(--heading-h3);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-color);
+}
+
+.card-offer p{
+    font-family: var(--font-family) !important;
+    font-size: var(--para-size) !important;
+    font-weight: var(--font-weight-small) !important;
+    color: var(--text-color) !important;
+    margin-top: -5px;
+}
+
+
+.home-card p{
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-regular);
+    color: var(--text-color-one);
+}
+
+.home-card h5 {
+    font-family: var(--font-family);
+    font-size: var(--heading-h6);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-dark-color);
+}
+
+
+.home-card-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-card-footer h4{
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-dark-color);
+}
+
+
+.fresh-btn{
+    background: var(--main-color);
+    border: none;
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: var(--para-size);
+    font-weight: var(--font-weight-small);
+    padding: 6px 20px;
+    border-radius: 2px;
+    margin-top: -20px;
+    margin-right: 10px;
+
+}
+
+.fresh-btn img{
+   width: 11px;
+   font-weight: 600;
+   margin-right: 5px;
+   margin-top: 6px;
+}
+
+
+.c-gap {
+    padding: 20px 20px 8px 20px;
+}
+
+.home-card{
+    border: none !important;
+}
+
+.home-card .card-body{
+    box-shadow: 5px 5px 10px #d8d0d0;
+}
+
+
+
+
+/*-----------------------------------------------------------------------*/
 
 
 @media only screen and (max-width: 767px){
